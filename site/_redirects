@@ -1,0 +1,12 @@
+# Clean URLs: Cloudflare Pages serves folder/index.html at /folder/ and adds the trailing slash automatically.
+# Legacy / common alternate paths -> canonical pages
+/index.html / 301
+/home / 301
+/services/water-damage-restoration/ / 301
+/water-damage-restoration-laurel-md/ / 301
+/service-areas/ /locations/ 301
+/areas/ /locations/ 301
+/mold-removal/ /services/mold-remediation/ 301
+/water-removal/ /services/emergency-water-removal/ 301
+/privacy/ /privacy-policy/ 301
+/terms-of-service/ /terms/ 301

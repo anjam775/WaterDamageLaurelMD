@@ -1,0 +1,377 @@
+[[term]]
+term = "Air mover"
+slug = "air-mover"
+def = "A high-speed fan that blows air across wet floors, walls and carpet so moisture evaporates faster. Air movers work together with dehumidifiers during structural drying."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See water mitigation and structural drying"
+
+[[term]]
+term = "Air scrubber"
+slug = "air-scrubber"
+def = "A portable machine that pulls room air through a HEPA filter to catch mold spores, soot and dust during cleanup."
+link = "/services/mold-remediation/"
+anchor = "See mold remediation"
+
+[[term]]
+term = "Antimicrobial"
+slug = "antimicrobial"
+def = "A cleaning product that kills or slows the growth of bacteria and mold on surfaces. It is used after sewage and flood water is removed."
+link = "/services/sewage-cleanup/"
+anchor = "See sewage cleanup"
+
+[[term]]
+term = "Backflow valve"
+slug = "backflow-valve"
+def = "A one-way valve on a sewer line that lets waste water leave the house but stops sewage from flowing back in during a backup."
+link = "/blog/sewage-backup-cleanup/"
+anchor = "Read the sewage backup guide"
+
+[[term]]
+term = "Black water"
+slug = "black-water"
+def = "Another name for Category 3 water: grossly contaminated water such as sewage or river flood water. It can carry bacteria and viruses."
+link = "/services/sewage-cleanup/"
+anchor = "See sewage cleanup"
+
+[[term]]
+term = "Board-up"
+slug = "board-up"
+def = "Covering broken windows, doors or wall openings with plywood after a fire or storm to keep out weather and intruders."
+link = "/services/fire-smoke-damage/"
+anchor = "See fire and smoke damage restoration"
+
+[[term]]
+term = "Category 1 water"
+slug = "category-1-water"
+def = "Clean water from a sanitary source, such as a broken supply line or an overflowing sink with no contaminants. It can worsen to Category 2 if it sits."
+link = "/services/emergency-water-removal/"
+anchor = "See emergency water removal"
+
+[[term]]
+term = "Category 2 water"
+slug = "category-2-water"
+def = "Gray water with some contamination, such as washing machine or dishwasher discharge or a toilet overflow with urine but no feces."
+link = "/services/emergency-water-removal/"
+anchor = "See emergency water removal"
+
+[[term]]
+term = "Category 3 water"
+slug = "category-3-water"
+def = "Grossly contaminated water, including sewage, toilet backflow from beyond the trap, and rising flood water from rivers or streams. Porous materials it soaks usually have to be removed."
+link = "/services/sewage-cleanup/"
+anchor = "See sewage cleanup"
+
+[[term]]
+term = "Class of water loss"
+slug = "class-of-water-loss"
+def = "A rating from Class 1 to Class 4 that describes how much water soaked into a room and how hard the materials are to dry. Class 4 covers dense materials like hardwood, plaster and concrete."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See structural drying"
+
+[[term]]
+term = "Containment"
+slug = "containment"
+def = "Plastic sheeting and zip doors that seal off a work area so mold spores, dust or soot do not spread to clean rooms."
+link = "/services/mold-remediation/"
+anchor = "See mold remediation"
+
+[[term]]
+term = "Contents pack-out"
+slug = "contents-pack-out"
+def = "Boxing up and moving furniture and belongings out of a damaged home so they can be cleaned, dried and stored while work goes on."
+link = "/services/fire-smoke-damage/"
+anchor = "See fire and smoke damage restoration"
+
+[[term]]
+term = "Crawl space"
+slug = "crawl-space"
+def = "A short, unfinished space under a house between the ground and the first floor. Crawl spaces often hold pipes and ducts and can trap moisture."
+link = "/blog/musty-smell-in-basement/"
+anchor = "Read about musty smells and damp spaces"
+
+[[term]]
+term = "Dehumidifier"
+slug = "dehumidifier"
+def = "A machine that pulls water vapor out of the air. Restoration crews use large low-grain refrigerant (LGR) or desiccant dehumidifiers to dry buildings."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See structural drying"
+
+[[term]]
+term = "Desiccant dehumidifier"
+slug = "desiccant-dehumidifier"
+def = "A dehumidifier that uses a moisture-absorbing material instead of cold coils. It works well in cold basements and for very dense materials."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See structural drying"
+
+[[term]]
+term = "Drying log"
+slug = "drying-log"
+def = "A daily record of moisture readings, humidity and equipment used on a water damage job. Insurers often ask for it."
+link = "/blog/water-mitigation-vs-restoration/"
+anchor = "Read mitigation vs. restoration"
+
+[[term]]
+term = "Efflorescence"
+slug = "efflorescence"
+def = "White, chalky salt deposits left on concrete or brick when water moves through it and evaporates. It is a sign of ongoing moisture in a basement wall."
+link = "/blog/what-to-do-when-your-basement-floods/"
+anchor = "Read the flooded basement guide"
+
+[[term]]
+term = "Flood stage"
+slug = "flood-stage"
+def = "The water level at a river gauge where the river starts to cause flooding nearby. The National Weather Service sets flood stage for each gauge."
+link = "/blog/how-to-prepare-for-a-flood/"
+anchor = "Read the flood prep guide"
+
+[[term]]
+term = "Flood zone"
+slug = "flood-zone"
+def = "An area shown on a FEMA flood map with a certain level of flood risk. Homes in a high-risk zone with a federally backed mortgage usually must carry flood insurance."
+link = "/blog/how-to-prepare-for-a-flood/"
+anchor = "Read the flood prep guide"
+
+[[term]]
+term = "French drain"
+slug = "french-drain"
+def = "A gravel-filled trench with a perforated pipe that carries ground water away from a foundation or to a sump pit."
+link = "/blog/sump-pump-not-working/"
+anchor = "Read the sump pump guide"
+
+[[term]]
+term = "Frozen pipe"
+slug = "frozen-pipe"
+def = "A water pipe where ice has formed and blocked flow. Pressure builds between the ice and the faucet and can split the pipe."
+link = "/blog/frozen-pipes-burst/"
+anchor = "Read the frozen pipes guide"
+
+[[term]]
+term = "Gray water"
+slug = "gray-water"
+def = "Another name for Category 2 water: water with some contamination that could make people sick if swallowed."
+link = "/services/emergency-water-removal/"
+anchor = "See emergency water removal"
+
+[[term]]
+term = "HEPA filter"
+slug = "hepa-filter"
+def = "A high-efficiency particulate air filter that traps at least 99.97 percent of particles 0.3 microns in size. Used in air scrubbers and vacuums during mold and soot cleanup."
+link = "/services/mold-remediation/"
+anchor = "See mold remediation"
+
+[[term]]
+term = "Hydrostatic pressure"
+slug = "hydrostatic-pressure"
+def = "The push of ground water against basement walls and floors. When soil is soaked, this pressure forces water through cracks and joints."
+link = "/blog/what-to-do-when-your-basement-floods/"
+anchor = "Read the flooded basement guide"
+
+[[term]]
+term = "Ice dam"
+slug = "ice-dam"
+def = "A ridge of ice at a roof edge that traps melting snow. The water backs up under shingles and can leak into ceilings and walls."
+link = "/services/ceiling-drywall-water-damage/"
+anchor = "See ceiling and drywall water damage repair"
+
+[[term]]
+term = "Low-grain refrigerant dehumidifier"
+slug = "lgr-dehumidifier"
+def = "Often called an LGR, this dehumidifier cools air below its dew point to pull out water. It can reach lower humidity than a household unit."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See structural drying"
+
+[[term]]
+term = "Moisture map"
+slug = "moisture-map"
+def = "A sketch of a room showing where moisture readings are high. It guides where to remove materials and place drying equipment."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See structural drying"
+
+[[term]]
+term = "Moisture meter"
+slug = "moisture-meter"
+def = "A tool that measures water inside drywall, wood or concrete. Pin meters read at a point; pinless meters scan below the surface."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See structural drying"
+
+[[term]]
+term = "Mold remediation"
+slug = "mold-remediation"
+def = "The process of containing, removing and cleaning mold growth and fixing the moisture that caused it. Killing mold is not enough; it must be removed."
+link = "/services/mold-remediation/"
+anchor = "See mold remediation"
+
+[[term]]
+term = "Mycotoxin"
+slug = "mycotoxin"
+def = "A natural chemical that some molds can produce. Health agencies advise removing indoor mold rather than testing for specific toxins."
+link = "/blog/how-long-does-it-take-for-mold-to-grow/"
+anchor = "Read the mold growth guide"
+
+[[term]]
+term = "National Flood Insurance Program"
+slug = "nfip"
+def = "The federal flood insurance program run by FEMA, often called the NFIP. Policies usually have a 30-day waiting period before coverage starts."
+link = "/blog/does-homeowners-insurance-cover-water-damage/"
+anchor = "Read the Maryland insurance guide"
+
+[[term]]
+term = "Negative air pressure"
+slug = "negative-air-pressure"
+def = "Setting up an air scrubber to exhaust more air than flows in, so air leaks into the work area instead of out of it. This keeps spores from escaping."
+link = "/services/mold-remediation/"
+anchor = "See mold remediation"
+
+[[term]]
+term = "Odor counteractant"
+slug = "odor-counteractant"
+def = "A product that breaks down odor molecules from smoke or sewage instead of covering them with a scent."
+link = "/services/fire-smoke-damage/"
+anchor = "See fire and smoke damage restoration"
+
+[[term]]
+term = "Pre-loss condition"
+slug = "pre-loss-condition"
+def = "The state a property was in before the damage. Insurance claims and restoration work aim to return the home to this condition."
+link = "/blog/does-homeowners-insurance-cover-water-damage/"
+anchor = "Read the insurance guide"
+
+[[term]]
+term = "Psychrometry"
+slug = "psychrometry"
+def = "The science of air, temperature and moisture. Drying technicians use it to set dehumidifiers and air movers for the fastest safe drying."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See structural drying"
+
+[[term]]
+term = "Relative humidity"
+slug = "relative-humidity"
+def = "How much water vapor the air holds compared with the most it could hold at that temperature, shown as a percent. Indoors, 30 to 50 percent is the usual target."
+link = "/blog/musty-smell-in-basement/"
+anchor = "Read about musty basements"
+
+[[term]]
+term = "Sanitary sewer overflow"
+slug = "sanitary-sewer-overflow"
+def = "A release of untreated sewage from a public sewer pipe, often during heavy rain when storm water leaks into old pipes."
+link = "/blog/sewage-backup-cleanup/"
+anchor = "Read the sewage backup guide"
+
+[[term]]
+term = "Secondary damage"
+slug = "secondary-damage"
+def = "Damage that shows up after the first event, such as mold, swelling wood, peeling paint or rust, because materials stayed wet too long."
+link = "/blog/water-mitigation-vs-restoration/"
+anchor = "Read mitigation vs. restoration"
+
+[[term]]
+term = "Sewer lateral"
+slug = "sewer-lateral"
+def = "The private pipe that carries waste water from a house to the public sewer main. The owner is usually responsible for most of it."
+link = "/services/sewage-cleanup/"
+anchor = "See sewage cleanup"
+
+[[term]]
+term = "Smoke residue"
+slug = "smoke-residue"
+def = "The film left by smoke on walls, ceilings and belongings. Dry, wet, protein and fuel-oil residues each need a different cleaning method."
+link = "/services/fire-smoke-damage/"
+anchor = "See fire and smoke damage restoration"
+
+[[term]]
+term = "Soot"
+slug = "soot"
+def = "Fine black carbon particles from incomplete burning. Soot is acidic and can stain and etch surfaces if it is not cleaned soon."
+link = "/services/fire-smoke-damage/"
+anchor = "See fire and smoke damage restoration"
+
+[[term]]
+term = "Standing water"
+slug = "standing-water"
+def = "Water pooled on a floor or surface. It should be extracted before drying begins, because fans alone cannot remove it."
+link = "/services/emergency-water-removal/"
+anchor = "See emergency water removal"
+
+[[term]]
+term = "Structural drying"
+slug = "structural-drying"
+def = "Drying the building itself, including subfloors, framing, drywall and concrete, with dehumidifiers, air movers and monitoring, not just the surfaces you can see."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See structural drying"
+
+[[term]]
+term = "Submersible pump"
+slug = "submersible-pump"
+def = "An electric pump that sits in standing water and pushes it out through a hose. It is used first when water is several inches deep."
+link = "/services/emergency-water-removal/"
+anchor = "See emergency water removal"
+
+[[term]]
+term = "Subfloor"
+slug = "subfloor"
+def = "The plywood or board layer under finished flooring. Water that seeps through carpet or wood can soak the subfloor and stay hidden."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See structural drying"
+
+[[term]]
+term = "Sump pump"
+slug = "sump-pump"
+def = "A pump in a pit at the lowest point of a basement that pushes ground water out and away from the house."
+link = "/blog/sump-pump-not-working/"
+anchor = "Read the sump pump guide"
+
+[[term]]
+term = "T&P valve"
+slug = "tp-valve"
+def = "The temperature and pressure relief valve on a water heater. It opens to release water if the tank gets too hot or pressure gets too high."
+link = "/blog/water-heater-leaking/"
+anchor = "Read the water heater guide"
+
+[[term]]
+term = "Thermal imaging camera"
+slug = "thermal-imaging-camera"
+def = "A camera that shows temperature differences. Wet areas are often cooler, so it helps find hidden water behind walls and ceilings. Readings are confirmed with a moisture meter."
+link = "/services/ceiling-drywall-water-damage/"
+anchor = "See ceiling and drywall water damage repair"
+
+[[term]]
+term = "Truck-mounted extractor"
+slug = "truck-mounted-extractor"
+def = "A powerful vacuum system built into a service vehicle, with hoses run into the home. It pulls large amounts of water from carpet and floors."
+link = "/services/emergency-water-removal/"
+anchor = "See emergency water removal"
+
+[[term]]
+term = "Wall cavity drying"
+slug = "wall-cavity-drying"
+def = "Pushing dry air into the space inside a wall or ceiling through small holes so it can dry without tearing out the whole surface."
+link = "/services/ceiling-drywall-water-damage/"
+anchor = "See ceiling and drywall water damage repair"
+
+[[term]]
+term = "Water mitigation"
+slug = "water-mitigation"
+def = "The first, urgent stage after a leak or flood: stopping the water, removing it and drying the building to prevent more damage."
+link = "/services/water-mitigation-structural-drying/"
+anchor = "See water mitigation"
+
+[[term]]
+term = "Water/sewer backup endorsement"
+slug = "sewer-backup-endorsement"
+def = "An add-on to a homeowners policy that covers damage from water or sewage backing up through drains or overflowing a sump pump. Maryland insurers must offer it."
+link = "/blog/does-homeowners-insurance-cover-water-damage/"
+anchor = "Read the Maryland insurance guide"
+
+[[term]]
+term = "Weighted extraction"
+slug = "weighted-extraction"
+def = "Using a heavy roller or stand-on tool to squeeze water out of carpet and pad so it can be extracted, instead of only vacuuming the surface."
+link = "/services/emergency-water-removal/"
+anchor = "See emergency water removal"
+
+[[term]]
+term = "Wicking"
+slug = "wicking"
+def = "Water climbing up drywall, wood or fabric from a wet floor, the way a paper towel soaks up a spill. Drywall can wick water well above the visible line."
+link = "/services/ceiling-drywall-water-damage/"
+anchor = "See ceiling and drywall water damage repair"
