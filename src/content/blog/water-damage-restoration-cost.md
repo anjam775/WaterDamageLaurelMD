@@ -137,6 +137,8 @@ It depends on the cause. The Maryland Insurance Administration explains that sta
 
 Local note: Finished basements in [Columbia](/locations/columbia-md/) and [Burtonsville](/locations/burtonsville-md/) often have more to remove, which raises repair costs. Plaster walls in older [Silver Spring](/locations/silver-spring-md/) homes take longer to dry but can often stay in place.
 
+Fire losses add soot and odor work on top of drying; see [what smoke cleanup after a fire involves](/blog/smoke-damage-cleanup/).
+
 Related reading: Before a cold snap, see how to keep [frozen pipes from bursting](/blog/frozen-pipes-burst/). If your basement just flooded, read [what to do when your basement floods](/blog/what-to-do-when-your-basement-floods/).
 
 ## When should you call a water damage professional?

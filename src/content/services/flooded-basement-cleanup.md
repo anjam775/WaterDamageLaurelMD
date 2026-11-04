@@ -118,7 +118,7 @@ We give a written estimate after we inspect. The [water damage cost guide](/blog
 
 ## DIY vs. calling a pro
 
-A small puddle from a window well on bare concrete is a DIY job with a wet vac and a fan. Call a pro when water covers the floor, soaks carpet or drywall, touches the furnace or water heater, or came from a sewer or sump pit. Read [what to do when your basement floods](/blog/what-to-do-when-your-basement-floods/) for the first steps to take while you wait.
+A small puddle from a window well on bare concrete is a DIY job with a wet vac and a fan. Call a pro when water covers the floor, soaks carpet or drywall, touches the furnace or water heater, or came from a sewer or sump pit. Read [what to do when your basement floods](/blog/what-to-do-when-your-basement-floods/) for the first steps to take while you wait, and [why rain gets into basements](/blog/water-in-basement-after-heavy-rain/) if it happens with every storm.
 
 !cta Not sure where the water is coming from? Call and we'll help you sort it out.
 

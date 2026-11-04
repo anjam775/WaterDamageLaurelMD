@@ -97,6 +97,8 @@ A [musty smell in the basement](/blog/musty-smell-in-basement/) is one of the mo
 
 Our guide to [water mitigation vs. restoration](/blog/water-mitigation-vs-restoration/) explains what professional drying involves.
 
+Wondering who pays? See [does homeowners insurance cover mold in Maryland](/blog/does-homeowners-insurance-cover-mold/).
+
 ## When can you clean mold yourself?
 
 The EPA says a homeowner can usually handle mold covering less than about 10 square feet, roughly a 3-by-3-foot patch. Wear an N-95 respirator, gloves and goggles. Scrub hard surfaces with detergent and water and dry them fully. Throw out porous items like ceiling tiles or carpet that have mold.

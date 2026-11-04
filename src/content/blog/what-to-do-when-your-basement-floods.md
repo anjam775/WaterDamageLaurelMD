@@ -112,6 +112,8 @@ Call your insurance company soon. Call a plumber for broken pipes or sewer lines
 
 Heavy rain soaks the soil around your foundation. That wet soil pushes water against the walls and floor, which is called hydrostatic pressure. Water finds the easiest path: cracks, the joint between the wall and floor, pipe openings and window wells. Clogged gutters, short downspouts and ground that slopes toward the house make it worse.
 
+If this happens after every big storm, our guide to [rain water in the basement](/blog/water-in-basement-after-heavy-rain/) helps you find the entry point.
+
 ## How to prevent your basement from flooding
 
 !checks

@@ -76,7 +76,7 @@ Where the stain is tells you a lot about the source.
 
 **Under a bathroom:** a leaking tub drain, shower pan, toilet wax ring or supply line. These leaks often show up only when the fixture is used.
 
-**On the top floor:** a roof leak, flashing problem around a chimney or vent, or an ice dam in winter.
+**On the top floor:** a roof leak, flashing problem around a chimney or vent, or an ice dam in winter. See [how ice dams cause ceiling leaks](/blog/ice-dams/).
 
 **Below the attic in summer:** an AC condensate line that's clogged or a drain pan that's rusted through.
 
@@ -115,6 +115,8 @@ Small stains on a dry ceiling may need only primer and paint. Sagging or soft dr
 ## Can wet drywall in a ceiling be saved?
 
 Sometimes. If clean water wet the drywall briefly and it dried fast without sagging, it can often stay. Drywall that sagged, softened, crumbled, got wet with dirty water or stayed wet for more than a couple of days should come out. The EPA notes that porous materials like ceiling tiles that get moldy may need to be thrown away.
+
+Water often runs down into the walls too. Learn the [warning signs of wet walls](/blog/signs-of-water-damage-in-walls/).
 
 ## How to prevent ceiling water damage
 

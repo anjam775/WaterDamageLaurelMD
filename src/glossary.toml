@@ -58,8 +58,8 @@ anchor = "See emergency water removal"
 term = "Category 3 water"
 slug = "category-3-water"
 def = "Grossly contaminated water, including sewage, toilet backflow from beyond the trap, and rising flood water from rivers or streams. Porous materials it soaks usually have to be removed."
-link = "/services/sewage-cleanup/"
-anchor = "See sewage cleanup"
+link = "/blog/category-3-water/"
+anchor = "Read what Category 3 water means"
 
 [[term]]
 term = "Class of water loss"
@@ -86,8 +86,8 @@ anchor = "See fire and smoke damage restoration"
 term = "Crawl space"
 slug = "crawl-space"
 def = "A short, unfinished space under a house between the ground and the first floor. Crawl spaces often hold pipes and ducts and can trap moisture."
-link = "/blog/musty-smell-in-basement/"
-anchor = "Read about musty smells and damp spaces"
+link = "/blog/crawl-space-mold/"
+anchor = "Read the crawl space mold guide"
 
 [[term]]
 term = "Dehumidifier"
@@ -170,8 +170,8 @@ anchor = "Read the flooded basement guide"
 term = "Ice dam"
 slug = "ice-dam"
 def = "A ridge of ice at a roof edge that traps melting snow. The water backs up under shingles and can leak into ceilings and walls."
-link = "/services/ceiling-drywall-water-damage/"
-anchor = "See ceiling and drywall water damage repair"
+link = "/blog/ice-dams/"
+anchor = "Read the ice dams guide"
 
 [[term]]
 term = "Low-grain refrigerant dehumidifier"
@@ -359,8 +359,8 @@ anchor = "See water mitigation"
 term = "Water/sewer backup endorsement"
 slug = "sewer-backup-endorsement"
 def = "An add-on to a homeowners policy that covers damage from water or sewage backing up through drains or overflowing a sump pump. Maryland insurers must offer it."
-link = "/blog/does-homeowners-insurance-cover-water-damage/"
-anchor = "Read the Maryland insurance guide"
+link = "/blog/sewer-backup-insurance-maryland/"
+anchor = "Read the sewer backup insurance guide"
 
 [[term]]
 term = "Weighted extraction"

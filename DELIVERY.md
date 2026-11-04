@@ -22,7 +22,7 @@ site/
 │   ├── columbia-md/  silver-spring-md/  bowie-md/  beltsville-md/
 │   └── greenbelt-md/  burtonsville-md/  odenton-fort-meade-md/  maple-lawn-fulton-md/
 ├── blog/index.html                    Blog hub (Blog + categories)
-│   └── 12 posts (see blog map)
+│   └── 23 posts (see blog map)
 ├── glossary/                          54 terms, DefinedTermSet
 ├── about/  contact/  disclaimer/  editorial-policy/  privacy-policy/  terms/  accessibility/
 ├── assets/css/site.css  assets/js/main.js (2.4 KB)  assets/img/ (logo, icons, og, blog/*.jpg|webp)
@@ -32,7 +32,7 @@ site/
 functions/api/contact.js               Form → Resend (honeypot, validation, consent)
 ```
 
-42 HTML pages: 1 home + 9 services + 8 locations + 12 posts + 3 hubs + glossary + 7 trust/legal + 404.
+53 HTML pages: 1 home + 9 services + 8 locations + 23 posts + 3 hubs + glossary + 7 trust/legal + 404.
 
 ## 2. Self-audit (audit.py) — final run: 0 failing checks
 
@@ -113,21 +113,12 @@ Use WebP, < 200 KB, explicit width/height, lazy-load all but the hero.
 8. **GBP + citations:** create the GBP as a service-area business (Laurel + 8 towns). Use the exact name "Laurel Dry Pros" and phone (301) 368-0221 everywhere (GBP, Bing Places, Apple Business Connect, Yelp, BBB, Angi, Nextdoor). Same NAP, no address shown.
 9. **Validate:** run a page through Google's Rich Results Test and PageSpeed Insights.
 
-## 6. 90-day content plan (remaining blog-map topics)
+## 6. Content plan
 
-| Week | Post (target keyword, US vol/KD from Semrush) | Supports |
-|---|---|---|
-| 1–2 | Does homeowners insurance cover mold in Maryland? (3,600/43) | Mold Remediation |
-| 2–3 | Smoke damage cleanup: what to do after a house fire (3,600/34) | Fire & Smoke (needs its own guide) |
-| 3–4 | Water in basement after heavy rain (390/8) | Flooded Basement |
-| 4–5 | Crawl space mold: signs and fixes (6,600/9) | Mold Remediation |
-| 5–6 | Signs of water damage in walls (390/21) | Ceiling & Drywall |
-| 6–7 | Category 3 water: what black water means (170/18) | Sewage Cleanup |
-| 7–8 | How long does water damage restoration take? (140/6) | Water Mitigation & Drying |
-| 8–9 | What does a water mitigation company do? (320) | Water Mitigation & Drying |
-| 9–10 | Ice dams and ceiling leaks in Maryland winters | Ceiling & Drywall |
-| 10–11 | Sewer backup insurance in Maryland (320/12) | Sewage Cleanup |
-| 11–12 | Wet carpet drying: can it be saved? (210/12) | Emergency Water Removal |
-| 12–13 | Day-60 refresh: pull Semrush positions, expand pages ranking 8–20, add new clusters | All |
+**Batch 2 published November 4, 2026 (11 posts, all keywords validated in Semrush on Nov 1):** smoke damage cleanup (3,600), does homeowners insurance cover mold (3,600/43), crawl space mold (6,600/9), water in basement after heavy rain (390/8), signs of water damage in walls (390/21), Category 3 water (170/18), how long does water damage restoration take (140/6), what does a water mitigation company do (320), ice dams (3,600/69), sewer backup insurance (320/12), wet carpet drying (210/12). Site now has 23 posts and 53 pages; audit 0 failing checks.
 
-Each new post: Semrush SERP brief first, then the Blog Post Criteria checklist, add it to `src/data.py` (BLOG + a service's GUIDES), add 2–3 "Related reading" links from older posts, `python3 gen_images.py && python3 build.py && python3 audit.py`.
+Note: Semrush API credits were exhausted on Nov 4, so batch 2 used the Nov 1 validated volumes; SERP top-10 and question pulls were not re-run for these 11.
+
+**Next (day 60 to 90):** pull Semrush positions, expand pages ranking 8 to 20, then plan the next cluster (slab leaks, commercial water damage, condo leaks, water damage drywall).
+
+Each new post: Semrush SERP brief first, then the Blog Post Criteria checklist, add it to `src/data.py` (BLOG + a service's GUIDES), add 2 to 3 in-text links from older pages, `python3 gen_images.py && python3 build.py && python3 audit.py`.

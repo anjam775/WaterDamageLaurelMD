@@ -90,6 +90,8 @@ Our [frozen pipes guide](/blog/frozen-pipes-burst/) covers warning signs and how
 6. **Dry.** Equipment runs while we take daily readings.
 7. **Repair.** Once dry, drywall, paint and trim are restored. Learn more about [ceiling and drywall water damage repair](/services/ceiling-drywall-water-damage/).
 
+Not sure if water got inside a wall? Check these [signs of water damage in walls](/blog/signs-of-water-damage-in-walls/).
+
 ## Water category and burst pipes
 
 Water from a supply pipe starts as Category 1, clean water. That is good news, because more materials can be dried and saved. But clean water doesn't stay clean. It picks up dirt from floors and wall cavities, and in a warm house it can become Category 2 within a day or two. That's one more reason to start drying fast.

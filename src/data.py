@@ -86,18 +86,30 @@ BLOG = {
     "water-mitigation-vs-restoration": ("Restoration Basics", "/services/water-mitigation-structural-drying/"),
     "water-heater-leaking": ("Leaks & Prevention", "/services/emergency-water-removal/"),
     "how-to-prepare-for-a-flood": ("Storms & Flooding", "/services/storm-flood-damage/"),
+    # batch 2 (published 2026-11-04)
+    "smoke-damage-cleanup": ("Restoration Basics", "/services/fire-smoke-damage/"),
+    "does-homeowners-insurance-cover-mold": ("Insurance & Claims", "/services/mold-remediation/"),
+    "crawl-space-mold": ("Mold", "/services/mold-remediation/"),
+    "water-in-basement-after-heavy-rain": ("Storms & Flooding", "/services/flooded-basement-cleanup/"),
+    "signs-of-water-damage-in-walls": ("Leaks & Prevention", "/services/ceiling-drywall-water-damage/"),
+    "category-3-water": ("Restoration Basics", "/services/sewage-cleanup/"),
+    "how-long-does-water-damage-restoration-take": ("Restoration Basics", "/services/water-mitigation-structural-drying/"),
+    "what-does-a-water-mitigation-company-do": ("Restoration Basics", "/services/water-mitigation-structural-drying/"),
+    "ice-dams": ("Storms & Flooding", "/services/ceiling-drywall-water-damage/"),
+    "sewer-backup-insurance-maryland": ("Insurance & Claims", "/services/sewage-cleanup/"),
+    "wet-carpet-drying": ("Leaks & Prevention", "/services/emergency-water-removal/"),
 }
 
 GUIDES = {  # helpful guides on each service page (supporting post first)
-    "emergency-water-removal": ["water-heater-leaking", "water-damage-restoration-cost", "water-mitigation-vs-restoration"],
-    "water-mitigation-structural-drying": ["water-mitigation-vs-restoration", "how-long-does-it-take-for-mold-to-grow", "water-damage-restoration-cost"],
-    "flooded-basement-cleanup": ["what-to-do-when-your-basement-floods", "sump-pump-not-working", "musty-smell-in-basement"],
-    "burst-pipe-water-damage": ["frozen-pipes-burst", "does-homeowners-insurance-cover-water-damage", "water-heater-leaking"],
-    "ceiling-drywall-water-damage": ["water-damage-on-ceiling", "frozen-pipes-burst", "how-long-does-it-take-for-mold-to-grow"],
-    "sewage-cleanup": ["sewage-backup-cleanup", "does-homeowners-insurance-cover-water-damage", "what-to-do-when-your-basement-floods"],
-    "mold-remediation": ["how-long-does-it-take-for-mold-to-grow", "musty-smell-in-basement", "water-damage-on-ceiling"],
-    "storm-flood-damage": ["how-to-prepare-for-a-flood", "what-to-do-when-your-basement-floods", "does-homeowners-insurance-cover-water-damage"],
-    "fire-smoke-damage": ["water-damage-restoration-cost", "does-homeowners-insurance-cover-water-damage", "water-mitigation-vs-restoration"],
+    "emergency-water-removal": ["wet-carpet-drying", "water-heater-leaking", "water-mitigation-vs-restoration"],
+    "water-mitigation-structural-drying": ["what-does-a-water-mitigation-company-do", "how-long-does-water-damage-restoration-take", "water-mitigation-vs-restoration"],
+    "flooded-basement-cleanup": ["water-in-basement-after-heavy-rain", "what-to-do-when-your-basement-floods", "sump-pump-not-working"],
+    "burst-pipe-water-damage": ["frozen-pipes-burst", "signs-of-water-damage-in-walls", "does-homeowners-insurance-cover-water-damage"],
+    "ceiling-drywall-water-damage": ["signs-of-water-damage-in-walls", "ice-dams", "water-damage-on-ceiling"],
+    "sewage-cleanup": ["category-3-water", "sewer-backup-insurance-maryland", "sewage-backup-cleanup"],
+    "mold-remediation": ["crawl-space-mold", "does-homeowners-insurance-cover-mold", "how-long-does-it-take-for-mold-to-grow"],
+    "storm-flood-damage": ["how-to-prepare-for-a-flood", "water-in-basement-after-heavy-rain", "ice-dams"],
+    "fire-smoke-damage": ["smoke-damage-cleanup", "does-homeowners-insurance-cover-water-damage", "water-damage-restoration-cost"],
 }
 
 # Wikipedia entities (sameAs) used in about/mentions; all are long-standing articles.
@@ -140,3 +152,6 @@ LOC_WIKI = {"columbia-md": ["Columbia, Maryland"], "silver-spring-md": ["Silver 
             "maple-lawn-fulton-md": ["Fulton, Maryland"]}
 COUNTY_WIKI = {"Howard County": "Howard County, Maryland", "Montgomery County": "Montgomery County, Maryland",
                "Prince George's County": "Prince George's County, Maryland", "Anne Arundel County": "Anne Arundel County, Maryland"}
+
+# pages changed after launch -> sitemap lastmod
+UPDATED = "2026-11-04"

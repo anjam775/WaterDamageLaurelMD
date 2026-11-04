@@ -161,7 +161,7 @@ def footer():
 </div><div class="legal"><p>© 2026 {BRAND}. Content on this site is general information, not professional, legal or insurance advice. See the <a href="/disclaimer/">disclaimer</a>.</p></div></div></footer>
 <div class="callbar"><a href="tel:{TEL}" data-loc="sticky">{icons.PHONE}Call {PHONE}</a></div>'''
 
-def page(path, title, meta, body, schema=None, og_img="/assets/img/og-default.jpg", og_type="website", noindex=False, extra_head=""):
+def page(path, title, meta, body, schema=None, og_img="/assets/img/og-default.jpg", og_type="website", noindex=False, extra_head="", lastmod=None):
     url = DOMAIN + path
     sch = ""
     if schema:
@@ -179,7 +179,7 @@ def page(path, title, meta, body, schema=None, og_img="/assets/img/og-default.jp
     if path == "/": dest = OUT / "index.html"
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(minify_html(doc), encoding="utf-8")
-    PAGES.append(dict(path=path, title=title, meta=meta, noindex=noindex))
+    PAGES.append(dict(path=path, title=title, meta=meta, noindex=noindex, lastmod=lastmod or LASTMOD.get(path, PUBLISHED)))
 
 PAGES = []
 
@@ -357,16 +357,18 @@ def build_post(sl):
     crumbs = [("Home", "/"), ("Blog", "/blog/"), (fm["crumb"], path)]
     words = len(re.findall(r"\b\w[\w'-]*\b", re.sub(r"<[^>]+>|\[|\]\([^)]*\)", " ", body)))
     mins = max(4, round(words / 230))
-    by = f'By {BRAND} Editorial · Published {PUBLISHED_H} · Updated {PUBLISHED_H} · {mins} min read'
+    pub = fm.get("date", PUBLISHED); upd = fm.get("updated", pub)
+    hd = lambda d: __import__("datetime").date.fromisoformat(d).strftime("%B %-d, %Y")
+    by = f'By {BRAND} Editorial · Published {hd(pub)} · Updated {hd(upd)} · {mins} min read'
     main = gloss_apply(render_md(body), path)
     img = f'<img class="feat" src="/assets/img/blog/{sl}.webp" alt="{E(fm["alt"])}" width="1200" height="630" fetchpriority="high" decoding="async">'
-    author = f'<div class="author"><p><strong>About this article.</strong> Written by {BRAND} Editorial and checked against the sources listed above. Last updated {PUBLISHED_H}. General information, not legal, insurance or professional advice. Read our <a href="/editorial-policy/">editorial policy</a> and <a href="/disclaimer/">disclaimer</a>.</p></div>'
+    author = f'<div class="author"><p><strong>About this article.</strong> Written by {BRAND} Editorial and checked against the sources listed above. Last updated {hd(upd)}. General information, not legal, insurance or professional advice. Read our <a href="/editorial-policy/">editorial policy</a> and <a href="/disclaimer/">disclaimer</a>.</p></div>'
     rel = f'<h2>Related guides</h2>{post_cards(fm["related"])}'
     html_body = hero(fm["h1"], None, crumbs, None, call=False, byline=by) + \
         f'<section class="sec"><div class="wrap"><div class="prose">{img}{main}{faq_html(fm["faq"], "Frequently asked questions")}{sources_html(fm["src"], reviewed=False)}{author}</div></div></section>' + \
         f'<section class="sec alt"><div class="wrap">{rel}</div></section>' + band(fm.get("band_h", "Water damage in Laurel?"), fm.get("band_p", "Call Laurel Dry Pros 24/7 for water removal, drying and cleanup."))
     bp = {"@type": "BlogPosting", "@id": DOMAIN + path + "#article", "headline": fm["h1"], "description": fm["meta"], "image": {"@type": "ImageObject", "url": f"{DOMAIN}/assets/img/blog/{sl}.jpg", "width": 1200, "height": 630},
-          "datePublished": PUBLISHED, "dateModified": PUBLISHED, "author": {"@type": "Organization", "name": f"{BRAND} Editorial", "url": DOMAIN + "/editorial-policy/"},
+          "datePublished": pub, "dateModified": upd, "author": {"@type": "Organization", "name": f"{BRAND} Editorial", "url": DOMAIN + "/editorial-policy/"},
           "publisher": {"@id": ORG_ID}, "inLanguage": "en-US", "wordCount": WC.get(path, words), "articleSection": p["cat"], "mainEntityOfPage": {"@id": DOMAIN + path + "#webpage"},
           "isPartOf": {"@id": DOMAIN + "/blog/#blog"}, "citation": [{"@type": "CreativeWork", "name": c["t"], "url": c["u"]} for c in fm["src"]]}
     wp = webpage(path, fm["title"], fm["meta"], about=[thing(fm["about"])], mentions=[thing(m) for m in fm.get("mentions", [])])
@@ -374,11 +376,12 @@ def build_post(sl):
     fs = faq_schema(fm["faq"], path)
     if fs: graph.append(fs)
     page(path, fm["title"], fm["meta"], html_body, graph, og_img=f"/assets/img/blog/{sl}.jpg", og_type="article",
-         extra_head=f'<meta property="article:published_time" content="{PUBLISHED}T09:00:00-04:00"><meta property="article:modified_time" content="{PUBLISHED}T09:00:00-04:00">')
+         extra_head=f'<meta property="article:published_time" content="{pub}T09:00:00-05:00"><meta property="article:modified_time" content="{upd}T09:00:00-05:00">', lastmod=upd)
     SOURCES_TXT[path] = (fm, body)
 
 WC = {}
 SOURCES_TXT = {}
+LASTMOD = {}  # path -> date for pages edited after launch (set in data.py)
 DEFAULT_CHIPS = ["Open 24/7", "10+ years in business", "Laurel & nearby Maryland", "Homes & businesses"]
 
 def auto_replace(h, mapping):
@@ -469,7 +472,7 @@ def write_static():
     (OUT / "assets/js/main.js").write_text(JS_MIN)
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: {DOMAIN}/sitemap.xml\n")
     pri = lambda p: "1.0" if p == "/" else "0.9" if p.startswith("/services/") and p != "/services/" else "0.8" if p in ("/services/", "/locations/", "/blog/") or p.startswith("/locations/") else "0.7" if p.startswith("/blog/") else "0.6" if p == "/glossary/" else "0.4"
-    urls = "".join(f"<url><loc>{DOMAIN}{p['path']}</loc><lastmod>{PUBLISHED}</lastmod><priority>{pri(p['path'])}</priority></url>" for p in PAGES if not p["noindex"])
+    urls = "".join(f"<url><loc>{DOMAIN}{p['path']}</loc><lastmod>{p['lastmod']}</lastmod><priority>{pri(p['path'])}</priority></url>" for p in PAGES if not p["noindex"])
     (OUT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
     (OUT / "site.webmanifest").write_text(json.dumps({"name": BRAND, "short_name": "Dry Pros", "start_url": "/", "display": "standalone", "background_color": "#ffffff", "theme_color": "#0B2545",
         "icons": [{"src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "/assets/img/icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml"}]}, indent=1))
@@ -516,6 +519,7 @@ def main():
         if p.name in ("assets", "favicon.svg", "favicon.ico", "apple-touch-icon.png"): continue
         shutil.rmtree(p) if p.is_dir() else p.unlink()
     load_posts()
+    LASTMOD.update({p: UPDATED for p in ["/blog/", "/glossary/"] + [f"/services/{k}/" for k in GUIDES]})
     for lo in LOCATIONS:  # card text needed before hubs
         fm, _ = read_md(SRC / "content" / "locations" / f"{lo[0]}.md"); LOC_CARD[lo[0]] = fm["card"]
     build_home()

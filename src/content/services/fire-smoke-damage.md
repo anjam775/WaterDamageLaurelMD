@@ -116,7 +116,7 @@ We give a written estimate. See the [cost guide](/blog/water-damage-restoration-
 
 ## DIY vs. calling a pro
 
-A small stovetop flare-up with a little smoke film on a nearby cabinet can be cleaned with care. Call a pro when soot is in more than one room, smoke smell lingers, water was used to put out the fire, or the HVAC ran during the fire. Don't run the HVAC until it's been checked, because it can spread soot.
+A small stovetop flare-up with a little smoke film on a nearby cabinet can be cleaned with care. Our guide to [cleaning up smoke damage after a house fire](/blog/smoke-damage-cleanup/) covers the safe first steps. Call a pro when soot is in more than one room, smoke smell lingers, water was used to put out the fire, or the HVAC ran during the fire. Don't run the HVAC until it's been checked, because it can spread soot.
 
 !cta Smoke smell won't go away? Call and we'll find where the residue is hiding.
 

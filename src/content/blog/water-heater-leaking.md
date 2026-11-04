@@ -105,6 +105,8 @@ Water heater replacement is plumbing work, and gas connections need a qualified,
 
 Local note: Water heaters in finished basements in [Columbia](/locations/columbia-md/) and [Burtonsville](/locations/burtonsville-md/) can soak carpet across the whole lower level. Upstairs utility closets in [Maple Lawn and Fulton](/locations/maple-lawn-fulton-md/) can leak into ceilings below. Older homes in [Bowie](/locations/bowie-md/) often have heaters in garages or utility rooms on slabs.
 
+If the tank soaked your carpet, our guide to [drying wet carpet](/blog/wet-carpet-drying/) explains what can be saved.
+
 Related reading: Winter brings another big leak risk, so see [what to do when frozen pipes burst](/blog/frozen-pipes-burst/). If your basement took on water, read [what to do when your basement floods](/blog/what-to-do-when-your-basement-floods/).
 
 ## When should you call a water damage professional?

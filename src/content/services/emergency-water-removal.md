@@ -25,7 +25,7 @@ a = "Not if outlets, cords or appliances are under water, or if the water came f
 
 [[faq]]
 q = "Will you save my carpet?"
-a = "Often, when the water was clean and extraction starts fast. Carpet pad usually has to be replaced. Carpet soaked by sewage or flood water is not saved."
+a = "Often, when the water was clean and extraction starts fast. Carpet pad usually has to be replaced. Carpet soaked by sewage or flood water is not saved. See [can wet carpet be saved](/blog/wet-carpet-drying/) for the details."
 
 [[faq]]
 q = "What happens after the water is removed?"

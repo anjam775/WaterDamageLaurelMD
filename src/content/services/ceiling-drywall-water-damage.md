@@ -89,6 +89,8 @@ Our guide to [water damage on the ceiling](/blog/water-damage-on-ceiling/) expla
 
 ## Why water climbs drywall
 
+Our guide to the [signs of hidden water in walls](/blog/signs-of-water-damage-in-walls/) shows what to look for before a stain appears.
+
 Drywall is gypsum pressed between paper. It soaks up water through wicking, the way a paper towel does. Water on a floor can rise a foot or more inside a wall. The paper facing also feeds mold. That's why we measure above the visible stain before deciding what to cut.
 
 ## Tools for hidden water in walls and ceilings
@@ -124,5 +126,7 @@ A small, dry, old stain with a fixed source can be primed and painted. Call a pr
 In Maryland, drywall and finish repairs on homes are home improvement work. Contractors must hold a Maryland Home Improvement Commission license, and the state notes that a home improvement license does not cover plumbing, electrical or HVAC work. Those need their own licensed trades.
 
 For insurance, sudden leaks from plumbing are often covered. Long-term, repeated seepage often is not. The Maryland Insurance Administration also notes many policies won't pay to repair the pipe or drain itself. Report the damage soon after you find it and take photos before repairs.
+
+Our [ice dams guide](/blog/ice-dams/) explains how to stop winter roof-edge leaks at the source.
 
 Local note: Ice dams are a winter risk on older Cape Cods and ramblers in [Bowie](/locations/bowie-md/) and [Greenbelt](/locations/greenbelt-md/). Stacked condos and townhomes in [Columbia](/locations/columbia-md/) often see ceiling leaks from the unit above. In [Burtonsville](/locations/burtonsville-md/), attic AC drain pans are a common summer source.

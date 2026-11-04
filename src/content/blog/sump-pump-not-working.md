@@ -116,6 +116,8 @@ Once a basement gets wet, the EPA says drying wet materials within 24 to 48 hour
 
 Local note: Finished basements in [Burtonsville](/locations/burtonsville-md/), [Maple Lawn and Fulton](/locations/maple-lawn-fulton-md/) and [Odenton and Fort Meade](/locations/odenton-fort-meade-md/) often depend on a sump pump. Newer subdivisions in [Bowie](/locations/bowie-md/) see the same thing.
 
+If the pump runs fine but water still gets in, read about [basement leaks after heavy rain](/blog/water-in-basement-after-heavy-rain/).
+
 Related reading: Get ready for big storms with our guide to [preparing for a flood in Laurel](/blog/how-to-prepare-for-a-flood/), and learn what a lingering [musty smell in the basement](/blog/musty-smell-in-basement/) can mean after a wet spell.
 
 ## When should you call a water damage professional?

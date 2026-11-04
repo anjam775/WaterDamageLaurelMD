@@ -32,7 +32,7 @@ a = "Mold returns if moisture does. That's why we fix or flag the source, such a
 
 [[faq]]
 q = "Is homeowners insurance going to pay for mold?"
-a = "It depends. Mold caused by a covered sudden leak may be covered, often with a limit. Mold from long-term leaks or humidity usually isn't. The Maryland Insurance Administration notes standard policies almost never cover flood damage, including mold from a flood."
+a = "It depends; see [mold coverage under Maryland homeowners policies](/blog/does-homeowners-insurance-cover-mold/). Mold caused by a covered sudden leak may be covered, often with a limit. Mold from long-term leaks or humidity usually isn't. The Maryland Insurance Administration notes standard policies almost never cover flood damage, including mold from a flood."
 
 [[src]]
 t = "U.S. EPA: Mold Cleanup in Your Home"

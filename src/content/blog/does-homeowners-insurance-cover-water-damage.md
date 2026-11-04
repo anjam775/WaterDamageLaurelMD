@@ -92,6 +92,8 @@ Usually, if it was sudden and accidental. The damage the water caused to walls, 
 
 Sometimes. If mold grows because of a covered sudden leak, part of the cleanup may be covered, but many policies cap mold coverage at a set dollar amount. Mold from long-term leaks or high humidity usually isn't covered. And the MIA notes that if mold comes from a flood, a homeowners policy almost never covers it, though a flood policy might if the flood itself is covered.
 
+For the full picture, read our guide to [whether insurance pays for mold](/blog/does-homeowners-insurance-cover-mold/).
+
 ## Flood insurance: what Maryland homeowners should know
 
 !checks

@@ -113,6 +113,8 @@ Adjusters often handle mitigation and repairs as two separate estimates. Mitigat
 
 In Maryland, home repairs like drywall, flooring and cabinets are home improvement work. Contractors must hold a Maryland Home Improvement Commission license, and you can check it online before you hire. Plumbing, electrical and HVAC work need separately licensed trades.
 
+Hiring a crew? See [what to expect from a mitigation company](/blog/what-does-a-water-mitigation-company-do/) and the [restoration timeline by stage](/blog/how-long-does-water-damage-restoration-take/).
+
 ## Tips for homeowners
 
 !checks
@@ -124,7 +126,7 @@ In Maryland, home repairs like drywall, flooring and cabinets are home improveme
 
 Local note: Cold slab basements in [Columbia](/locations/columbia-md/) often need extra drying days. Tight, newer homes in [Maple Lawn and Fulton](/locations/maple-lawn-fulton-md/) dry well once dehumidifiers are sized right. Masonry and plaster in [Greenbelt](/locations/greenbelt-md/) dry slowly but can often stay in place.
 
-Related reading: If the water came from a failed tank, see [what to do when your water heater is leaking](/blog/water-heater-leaking/). If it came through the ceiling, read our guide to [water damage on the ceiling](/blog/water-damage-on-ceiling/).
+Related reading: If the water came from a failed tank, see [what to do when your water heater is leaking](/blog/water-heater-leaking/).
 
 ## When should you call a water mitigation professional?
 

@@ -108,6 +108,8 @@ That's why we may close windows, set the thermostat a certain way or ask you not
 
 ## Mitigation vs. restoration
 
+Not sure who does what? Read [what a water mitigation company does](/blog/what-does-a-water-mitigation-company-do/) and how long [the full restoration timeline](/blog/how-long-does-water-damage-restoration-take/) usually runs.
+
 Mitigation stops and dries the damage. Restoration repairs it. They are separate stages, and insurers often treat them as separate line items. Mitigation should start the same day. Repairs should wait until drying is confirmed, or new drywall and flooring can trap moisture and grow mold.
 
 ## What affects the cost of drying
