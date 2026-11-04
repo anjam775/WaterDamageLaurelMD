@@ -67,6 +67,14 @@ When rain soaks the soil around your house, the water has nowhere to go but down
 
 Most rain problems start above ground, though. A clogged gutter or a downspout that empties right beside the house can put hundreds of gallons against one wall in a single storm. Soil that slopes toward the house does the same.
 
+### Why water only shows up in heavy rain
+
+Light rain soaks into the top of the soil and dries out. A long, heavy rain fills the soil around the house. Once the soil can't hold more, water collects against the foundation and pressure builds. That's why a basement can stay dry for years and leak in one big storm. It's also why water often shows up hours after the rain stops. It takes time to soak down to the footing.
+
+### What is drain tile?
+
+Drain tile is a perforated pipe laid in gravel along the footing. It collects water before it can push through the wall and carries it to a sump pit or a storm drain. Many older homes have none, or have clay tile that has filled with silt or roots. A plumber or waterproofing contractor can camera-inspect it.
+
 !cta Water on the basement floor after a storm? Call (301) 368-0221 for pump-out and drying.
 
 ## What to do right now
@@ -95,6 +103,21 @@ Start with the cheapest fixes. They solve many problems.
 - **Install a backflow valve** if water comes up through floor drains.
 
 If those don't solve it, bigger fixes include an exterior drain and waterproofing, an interior perimeter drain that feeds a sump pump, or regrading the yard. Get more than one opinion and a written estimate.
+
+## Is it a structural problem?
+
+Most basement leaks are drainage problems, not structural ones. Watch for these signs that need a structural engineer:
+
+!checks
+- Horizontal cracks in a block or poured wall
+- A wall that bows or leans inward
+- Stair-step cracks in block that are getting wider
+- Cracks wider than a pencil, or with one side higher than the other
+- Doors and windows upstairs that start to stick
+
+To track a crack, mark both ends with a pencil and write the date. Check it again in a few months. A crack that grows needs a pro to look at it.
+
+Sealers painted on the inside of a wall can stop dampness, but they can't hold back strong water pressure. Water will find the next weak spot. Interior sealers work best on top of better drainage outside.
 
 ## Does insurance cover water in the basement after rain?
 

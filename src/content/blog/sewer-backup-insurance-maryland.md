@@ -30,6 +30,10 @@ a = "Often not. Many policies won't pay to repair or replace the pipe or drain i
 q = "What if the backup was caused by WSSC Water's main?"
 a = "If WSSC Water decides the blockage was in the part it maintains, you can file a claim with its Claims Office for property damage and plumber fees. You may also have a claim under your own endorsement."
 
+[[faq]]
+q = "What is sewer backup coverage?"
+a = "It's an add-on to a homeowners or renters policy. It helps pay for damage when water or sewage backs up through drains or a sewer line, or when a sump pump overflows. A standard policy usually excludes this without the add-on."
+
 [[src]]
 t = "Maryland Insurance Administration: Flood damage vs. water damage"
 u = "https://insurance.maryland.gov/Consumer/Pages/flood-damage-vs-water-damage.aspx"
@@ -48,6 +52,9 @@ u = "https://insurance.maryland.gov/Consumer/Documents/publicnew/Storm-Related-D
 [[src]]
 t = "WSSC Water: Sewer backups"
 u = "https://www.wsscwater.com/backups"
+[[src]]
+t = "Farmers Insurance: What is water backup coverage and do I need it?"
+u = "https://www.farmers.com/learn/insurance-questions/homeowners-water-backup-coverage/"
 +++
 !short Sewer backup insurance in Maryland comes as a water/sewer backup endorsement added to your homeowners policy. It can cover damage when sewage or water backs up through drains or overflows a sump pump. Maryland insurers must offer it, but it isn't automatic. It usually has its own limit and deductible, and it doesn't cover flooding.
 
@@ -77,6 +84,31 @@ Maryland law requires insurers to offer water/sewer backup coverage. The MIA has
 | Backup caused by your own negligence | May be excluded |
 
 !cta Sewage or sump water in your basement? Call (301) 368-0221 for cleanup and documentation.
+
+## Is sewer backup coverage worth it?
+
+For many homes with a basement, yes. The cost of one backup can be far more than the yearly price of the add-on. Farmers Insurance suggests it's worth a look if:
+
+!checks
+- Your sewer line is old, especially clay pipe
+- You have a sump pump
+- You have a basement, and even more so a finished one
+- Your home is older, with older pipes
+- Your town has aging sewer mains
+- Your home sits lower than the homes around it
+
+Remember that a sump pump can't run during a power outage unless it has a battery backup.
+
+## How much sewer backup coverage do I need?
+
+Add up what a backup would cost to fix in your basement:
+
+1. **Finishes:** drywall, flooring, carpet, trim and cabinets
+2. **Equipment:** water heater, furnace, washer and dryer
+3. **Belongings** stored on the floor
+4. **Cleanup:** water removal, disinfection and drying
+
+Farmers Insurance notes that backup limits commonly start at $5,000. An unfinished basement with little stored in it may need a low limit. A finished basement with a bedroom or a family room may need much more. Ask your agent for quotes at two or three limits and compare.
 
 ## Limits and deductibles
 

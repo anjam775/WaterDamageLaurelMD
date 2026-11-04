@@ -30,6 +30,14 @@ a = "Fire is a covered peril on most homeowners policies, and smoke damage is us
 q = "Is it safe to run my HVAC after a fire?"
 a = "Not until it's been checked. Running the system can pull soot through the ducts and spread it to every room. Have the filter changed and the ducts inspected first."
 
+[[faq]]
+q = "Does renters insurance cover smoke damage?"
+a = "Renters insurance usually covers a tenant's own belongings and extra living costs after a covered fire, including smoke damage. The building itself is normally covered by the landlord's policy. Check your policy and report the loss quickly."
+
+[[faq]]
+q = "Can I paint over smoke damage?"
+a = "Not until the soot is cleaned off and the surface is fully dry. Paint over soot can peel, and stains and odor can bleed through. Clean first, then use a stain-blocking primer before the finish coat."
+
 [[src]]
 t = "American Red Cross: Cleaning up after a fire"
 u = "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/cleaning-up-after-fire.html"
@@ -45,6 +53,9 @@ u = "https://www.usfa.fema.gov/downloads/pdf/publications/fa_46.pdf"
 [[src]]
 t = "U.S. EPA: Mold Cleanup in Your Home"
 u = "https://www.epa.gov/mold/mold-cleanup-your-home"
+[[src]]
+t = "U.S. Fire Administration (archived): After the fire, salvage and cleaning"
+u = "https://webarchive.library.unt.edu/eot2008/20080917143841/http://www.usfa.dhs.gov/citizens/all_citizens/atf/salvage.shtm"
 +++
 !short Smoke damage cleanup starts only after the fire department says your home is safe. Call your insurer first, then air out the house, throw away food exposed to heat or smoke, and avoid wiping soot, which smears. Light residue on hard surfaces can be washed. Heavy soot, lingering odor and water from firefighting need a professional.
 
@@ -60,6 +71,10 @@ This is general information, not professional or insurance advice. Follow the in
 4. **Secure the home.** Broken windows and roof holes need board-up or tarps to keep out rain and intruders.
 5. **Take photos and video** of every room before cleaning.
 6. **Throw out exposed food and medicine.** The Red Cross says to discard food, drinks and medicine exposed to heat, smoke or soot.
+
+## What is considered smoke damage?
+
+Smoke damage is any harm left by smoke, not flames. It includes soot on walls and ceilings, yellow or gray stains, a smoke smell in fabrics and insulation, and residue inside ducts and cabinets. Rooms far from the fire can have it, because smoke follows air flow through the house. Insurers usually treat it as part of the fire claim, so document it room by room, even where nothing burned.
 
 ## Why smoke damage is hard to clean
 
@@ -87,6 +102,19 @@ For small amounts of residue on hard surfaces, the American Red Cross gives thes
 - **Launder washable fabrics.** Test first. More than one wash may be needed.
 
 Never mix bleach with ammonia or other cleaners. Wear gloves, eye protection and old clothes.
+
+## How to clean smoke damage on walls and ceilings
+
+Painted walls and ceilings are where most smoke cleanup happens. The order matters.
+
+1. **Cover the floor** with drop cloths so falling soot doesn't stain carpet.
+2. **Vacuum loose soot first.** Hold the nozzle just off the surface. Wiping soot with a wet rag first can smear it into the paint.
+3. **Use a dry soot sponge** on light, powdery residue before any water touches the wall.
+4. **Wash one small area at a time,** working from the floor up, and rinse right away. The U.S. Fire Administration gives this order to prevent streaks, with ceilings washed last.
+5. **Let surfaces dry fully.** Don't repaint until walls and ceilings are completely dry.
+6. **Seal before painting.** Stains and odor can bleed through new paint, so painters often use a stain-blocking primer first.
+
+Textured or popcorn ceilings, flat paint and wallpaper are easy to ruin with water. Leave those to a pro.
 
 ## What usually has to be thrown away
 

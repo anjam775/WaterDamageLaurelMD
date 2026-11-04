@@ -26,6 +26,14 @@ a = "Generally no. Carpet and pad soaked by sewage or flood water soak up contam
 q = "Is it safe to stay home during black water cleanup?"
 a = "If the contaminated area can be sealed off and is limited, some families stay. Young children, older adults and anyone with a weak immune system should stay away from the work area, and often out of the home."
 
+[[faq]]
+q = "Is fire sprinkler water Category 3?"
+a = "Usually not at first. Sprinkler water often sits in the pipes for years and comes out dirty, so it's often handled as Category 2. It can be treated as Category 3 if it sits for days or mixes with sewage or dirt."
+
+[[faq]]
+q = "Is rain water Category 3?"
+a = "Rain leaking through a roof often starts as Category 1 or 2. Rain or flood water that flows across the ground and into the house is treated as Category 3, because FEMA warns flood water can contain sewage and chemicals."
+
 [[src]]
 t = "Illinois Department of Public Health: Flood and sewer overflow cleanup"
 u = "https://dph.illinois.gov/topics-services/environmental-health-protection/toxicology/indoor-air-quality-healthy-homes/flood-sewer-overflow-cleanup.html"
@@ -56,6 +64,10 @@ The water damage restoration standard, ANSI/IICRC S500, sorts water by how conta
 | Category 3 | Black water | Sewage, toilet backflow from beyond the trap, river or surface flooding, standing water that has grown bacteria | Porous materials removed; everything else cleaned and disinfected |
 
 Water can move up a category. Clean water that sits for a day or two in a warm house, or runs across dirty floors and through wall cavities, can become Category 2 or 3.
+
+## What is Category 3 water?
+
+Category 3 water is water that is grossly unsanitary. It can carry bacteria, viruses, parasites, chemicals or other harmful things. Sewage is the clearest example. Flood water that flows over the ground into a home is treated the same way, because it can pick up sewage, fuel, chemicals and soil. People often call it black water. Anything porous it soaks usually has to be thrown away.
 
 ## Common sources of Category 3 water in Laurel homes
 
@@ -106,6 +118,17 @@ Black water brings in organic matter that feeds mold. The EPA says wet materials
 ## Protecting yourself during cleanup
 
 If you have to step into black water before help arrives, wear rubber boots, waterproof gloves and eye protection. Cover cuts and scrapes. Don't touch your face, and wash your hands with soap and clean water when you're done. Keep pets out, since they track contamination through the house. Wash work clothes separately in hot water.
+
+## How to lower your risk of black water
+
+!checks
+- Don't flush wipes, grease, paper towels or diapers.
+- Pour cooking grease into the trash, not the drain.
+- Ask a plumber to camera-check an old sewer line, especially if trees grow near it.
+- Ask about a backwater valve if water comes up through a basement floor drain.
+- Keep belongings off basement floors and in plastic bins.
+- Check that your policy has a water/sewer backup endorsement.
+- Know where your main water shut-off is.
 
 ## Who pays for Category 3 cleanup?
 

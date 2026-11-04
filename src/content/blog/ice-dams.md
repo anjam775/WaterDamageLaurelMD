@@ -26,6 +26,10 @@ a = "They can melt a channel in some spots, but home inspection groups note they
 q = "Does homeowners insurance cover ice dam leaks?"
 a = "Many policies cover sudden interior water damage from an ice dam, though they may not cover the roof repair itself or damage from long-term neglect. Report the leak quickly and take photos."
 
+[[faq]]
+q = "How do I get rid of ice dams without damaging my roof?"
+a = "Rake snow off the lower roof from the ground, then lay a nylon stocking filled with calcium chloride ice melt across the dam to melt a drain channel. Don't use rock salt, hammers or a ladder on ice. Hire a roofer if you can't reach it safely."
+
 [[src]]
 t = "University of Minnesota Extension: Dealing with and preventing ice dams"
 u = "https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/dealing-with-and-preventing-ice-dams"
@@ -38,6 +42,12 @@ u = "https://www.nachi.org/ice-dams.htm"
 [[src]]
 t = "U.S. EPA: Mold Cleanup in Your Home"
 u = "https://www.epa.gov/mold/mold-cleanup-your-home"
+[[src]]
+t = "Travelers Insurance: How to identify and help remove an ice dam"
+u = "https://www.travelers.com/resources/weather/winter-storms/how-to-prevent-and-remove-ice-dams"
+[[src]]
+t = "National Weather Service (Gaylord, MI): Preventing roof ice dams"
+u = "https://www.weather.gov/media/apx/2016Winter.pdf"
 +++
 !short Ice dams form when heat escaping into the attic warms the roof and melts snow, which then refreezes at the colder roof edge. Water backs up behind that ridge of ice, gets under shingles and leaks into ceilings and walls. Remove snow from the lower roof safely, catch and dry any leaks fast, and prevent future ice dams by air-sealing and insulating the attic.
 
@@ -59,6 +69,10 @@ An ice dam is a ridge of ice at the edge of a roof that stops melting snow from 
 6. **More meltwater pools** behind the dam and leaks into the house.
 
 The University of Minnesota Extension explains that ice dams can be prevented by controlling the heat lost from the home. The problem starts inside, not on the roof.
+
+## Do you have an ice dam or just icicles?
+
+Icicles hang off the roof edge. An ice dam is a thick ridge of ice on the roof itself, with water trapped behind it. Travelers Insurance notes that if icicles stay at the gutters with no water trapped behind them, a dam likely hasn't formed. Icicles can still be a warning sign, so keep watching after each storm. Stay out from under large icicles, since they can fall.
 
 ## Warning signs of ice dams
 
@@ -82,6 +96,18 @@ The University of Minnesota Extension explains that ice dams can be prevented by
 
 !cta Ice dam leaking through your ceiling? Call (301) 368-0221 for drying and ceiling repair.
 
+## How to remove an ice dam safely
+
+Most homeowners can do this from the ground. Travelers Insurance describes this method:
+
+1. **Rake the snow.** Use a roof rake to pull snow off the lower 3 to 4 feet of roof, from the ground.
+2. **Use calcium chloride ice melt.** Don't use rock salt. It can damage the roof.
+3. **Fill a nylon stocking** with the calcium chloride.
+4. **Lay the stocking across the dam,** running up and down the roof, so it melts a channel for water to drain.
+5. **Cover plants** below the gutters with a light tarp. Salty runoff can harm them.
+
+If you can't reach the roof safely from the ground, hire a roofer. Some roofing pros remove ice dams with low-pressure steam, which melts the ice without hurting shingles. Never use a ladder on snow or ice, and never chip at the ice with a hammer or shovel.
+
 ## The water damage ice dams cause
 
 | Where water goes | What it damages | What helps |
@@ -101,9 +127,10 @@ The goal is to keep the whole roof cold so snow doesn't melt unevenly.
 3. **Keep vents clear.** Natural attic ventilation, such as soffit and ridge vents, helps keep the roof deck at an even temperature. Baffles keep insulation from blocking soffit vents.
 4. **Fix heat sources in the attic.** Leaky ducts, recessed lights and bath fans venting into the attic all add heat and moisture. The University of Minnesota Extension lists recessed lights, skylights, complex roofs and heating ducts in the attic as factors that raise ice dam risk.
 5. **Keep gutters clean** before winter so meltwater can drain.
-6. **Rake snow** off the lower roof after big storms.
+6. **Rake snow** off the lower 3 to 4 feet of roof after each big storm.
+7. **Add a membrane when you re-roof.** A water-repellent membrane under the shingles at the eaves is an extra layer of protection if a dam forms.
 
-Heat cables are a short-term option at best. InterNACHI notes they rarely solve the problem, use electricity and can make shingles brittle.
+The National Weather Service notes that winter sun has little effect on attic air temperature. Warm air from the rooms below is usually the cause. That's why the fix is in the attic. Heat cables are a short-term option at best. InterNACHI notes they rarely solve the problem, use electricity and can make shingles brittle.
 
 ## Ice dams and insurance
 

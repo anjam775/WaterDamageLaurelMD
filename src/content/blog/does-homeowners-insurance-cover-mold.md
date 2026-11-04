@@ -93,6 +93,14 @@ Flood damage is a separate category. The Maryland Insurance Administration says 
 
 Water that backs up through drains or overflows a sump pump isn't covered by a standard homeowners policy. It's covered only with a water/sewer backup endorsement. If the backup is covered, related mold cleanup may be too. Our [sewer backup insurance guide](/blog/sewer-backup-insurance-maryland/) explains the endorsement in detail.
 
+## Does insurance cover mold removal?
+
+When mold comes from a covered loss, the policy may help pay to remove it, up to any mold limit. That can include tear-out of moldy drywall, cleaning, HEPA air filtering and, in some policies, testing. If the mold came from a slow leak, high humidity or flooding without flood insurance, removal is usually yours to pay. Ask your adjuster in writing which parts of the mold work the claim includes before work starts.
+
+## Hidden water damage and mold
+
+Some leaks sit inside walls or under floors for weeks before anyone sees them. Many policies exclude damage from leaks that went on over time, even when you couldn't see them. Some insurers sell an add-on for hidden or concealed water damage. Ask your agent if one is offered and what limit it carries. It can matter most in older homes with plumbing inside walls.
+
 ## How to protect a mold claim
 
 1. **Stop the water** and fix the source, or have a plumber or roofer do it.
@@ -103,6 +111,14 @@ Water that backs up through drains or overflows a sump pump isn't covered by a s
 6. **Keep receipts** for drying, testing and cleanup.
 7. **Get a written scope** from the remediation company.
 8. **Ask for a written explanation** if coverage is denied. You can file a complaint with the Maryland Insurance Administration if you disagree.
+
+## If your mold claim is denied
+
+1. **Ask for the denial in writing,** with the policy language it relies on.
+2. **Get the cause in writing.** A plumber's report or moisture readings can show the leak was sudden.
+3. **Check the mold limit and the exclusions** on your own policy, not a summary.
+4. **Ask for a review** by your insurer, and send any new proof.
+5. **Contact the Maryland Insurance Administration** if you think the claim was handled unfairly. The MIA takes consumer complaints about insurers.
 
 ## Choosing a mold company in Maryland
 

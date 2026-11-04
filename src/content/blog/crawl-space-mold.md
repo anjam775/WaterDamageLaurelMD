@@ -89,6 +89,18 @@ The EPA recommends keeping indoor humidity below 60 percent, ideally between 30 
 
 The EPA's guidance groups mold jobs by size. Small jobs are under 10 square feet, medium jobs run 10 to 100 square feet and large jobs are over 100. Crawl space jobs are often medium or large because growth spreads across many joists.
 
+## How much mold in a crawl space is acceptable?
+
+There is no set safe amount. The EPA notes that no federal limits have been set for mold or mold spores in the air. A crawl space that is dry will still have some spores, like any space. But mold you can see growing on wood or insulation means there is a moisture problem. Small, dry, old stains may only need cleaning. Fuzzy growth, damp wood or a strong smell means the water source has to be fixed and the mold removed.
+
+## Can you remove crawl space mold yourself?
+
+You can handle a small patch, under about 10 square feet, if the crawl space is dry and you can move safely. Wear an N-95 respirator, gloves and goggles, scrub the wood with detergent and water, and dry it fully. Bigger jobs are hard to do well. The space is tight, the dust spreads and spores can be pulled up into the house. Removing mold won't help unless you also fix the moisture.
+
+## Does encapsulation get rid of mold?
+
+No. Encapsulation seals the crawl space with a heavy liner on the floor and walls, and often adds a dehumidifier. It keeps the space dry, which helps stop new mold. It does not remove mold that is already there. Existing growth should be cleaned and the wood dried before the space is sealed. A damp crawl space can also draw termites and other pests, so drying it out helps there too.
+
 ## Preventing crawl space mold
 
 !checks

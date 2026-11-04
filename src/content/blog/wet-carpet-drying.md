@@ -66,6 +66,8 @@ Carpet pad is like a thick sponge. It holds a lot of water, dries slowly and is 
 
 ## How to dry wet carpet, step by step
 
+Keep people and pets off the wet carpet while it dries. Walking on it pushes water deeper into the pad.
+
 1. **Stop the water** at the source.
 2. **Make it safe.** Keep cords and appliances off wet carpet. Turn off power to the room if outlets are wet.
 3. **Extract the water.** A wet vac works for small areas. Large areas need a pro-grade extractor, often with weighted tools that squeeze water out.
@@ -88,6 +90,18 @@ With proper extraction and drying equipment, carpet often dries in a day or two.
 - Carpet that ripples, buckles or feels loose
 - Dark spots on the back of the carpet or on the pad
 - Cupped or warped wood flooring nearby
+
+## How to get rid of wet carpet smell
+
+A musty smell means something is still wet, or mold has started. Air fresheners won't fix it.
+
+1. **Find the wet spot.** Pull back a corner of the carpet. If the pad is damp, that's usually the source.
+2. **Replace the pad.** Wet pad holds water and odor and is cheap to replace.
+3. **Dry the subfloor.** Run a dehumidifier and fans until the floor reads dry.
+4. **Clean the carpet.** A hot water extraction with a carpet-safe cleaner removes the residue that smells.
+5. **Freshen light odor.** Baking soda on dry carpet, vacuumed after a few hours, helps with a faint smell only.
+
+If the smell returns after a few days, moisture is still trapped. Call a pro to check with a meter.
 
 ## What about rugs and carpet over concrete?
 

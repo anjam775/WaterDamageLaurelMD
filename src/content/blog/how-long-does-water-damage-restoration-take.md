@@ -100,6 +100,14 @@ The EPA says wet materials dried within 24 to 48 hours usually won't grow mold. 
 
 These are examples, not promises. Your timeline depends on what we find.
 
+## How long do repairs and rebuilding take?
+
+Drying is only part of the job. Once the structure is dry, the repairs begin. A few patches of drywall and paint may take a few days. New flooring, cabinets or a full basement can take weeks. ATI Restoration, a national restoration company, says rebuilding after water damage can take from one week to several months, with full rebuilds taking longest. Wait times for materials such as matching cabinets or flooring often decide the end date.
+
+## How long does contents cleaning take?
+
+Belongings moved out for cleaning come back on their own schedule. Furniture, documents, electronics and keepsakes may each need a different process. ATI Restoration says contents cleaning can take from a few days to several weeks, depending on the items and the damage. Ask for an inventory list and a pickup date when items leave the house.
+
 ## How the insurance process affects the timeline
 
 Insurers often treat drying and repairs as separate steps, with separate estimates. Drying shouldn't wait for an adjuster. Your policy expects you to take reasonable steps to prevent more damage. Repairs may wait for the adjuster's approval of the scope. Our guide to [water mitigation vs. restoration](/blog/water-mitigation-vs-restoration/) explains the two stages, and our [Maryland insurance guide](/blog/does-homeowners-insurance-cover-water-damage/) explains what's usually covered.

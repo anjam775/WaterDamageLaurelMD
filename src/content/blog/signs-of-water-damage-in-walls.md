@@ -26,6 +26,10 @@ a = "The EPA says to dry wet materials within 24 to 48 hours to prevent mold. Wa
 q = "Will a home inspector find water damage in walls?"
 a = "Inspectors look for visible signs and may use a moisture meter, but they can't see inside walls. Hidden damage can be missed, especially if paint or furniture covers it."
 
+[[faq]]
+q = "Does homeowners insurance cover water damage in walls?"
+a = "It often does when the water came from a sudden leak, like a burst pipe. Damage from a slow leak that went on for months is often excluded as wear or neglect. Take photos, stop the leak and report it quickly."
+
 [[src]]
 t = "U.S. EPA: Mold Cleanup in Your Home"
 u = "https://www.epa.gov/mold/mold-cleanup-your-home"
@@ -89,6 +93,26 @@ This is general information, not professional advice.
 3. **Use thermal imaging.** A thermal camera shows cooler, wet areas. Readings should be confirmed with a meter, since cold spots can also be drafts.
 4. **Check the other side.** Look in the room, closet or cabinet behind the wall.
 5. **Watch the water meter.** Turn off all fixtures. If the meter keeps moving, there's a leak somewhere.
+
+## Listen and press: two simple checks
+
+**Listen.** At a quiet time, put your ear near the wall. Dripping, hissing or running water when no faucet is on can point to a leaking pipe.
+
+**Check the water meter.** Turn off every faucet and appliance that uses water. Read the meter, wait an hour or two, and read it again. If the numbers moved, water is going somewhere.
+
+**Press gently.** Push on the drywall near the stain with your thumb. Soft, spongy or crumbly drywall is wet or has been wet for a while.
+
+## Who do you call for water damage in a wall?
+
+| Problem | Who to call |
+|---|---|
+| A pipe is leaking right now | A licensed plumber to stop and repair the leak |
+| Water from the roof or a window | A roofer or window contractor to fix the entry point |
+| The wall, framing or floor is wet | A water damage restoration company to measure and dry it |
+| Drywall, trim or framing must be rebuilt | A Maryland Home Improvement Commission licensed contractor |
+| You think the loss is covered | Your insurance company, as soon as possible |
+
+Many homeowners call the plumber first and the drying company the same day. Waiting on the drying can turn a wall repair into a mold job.
 
 ## Why water spreads inside walls
 

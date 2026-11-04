@@ -122,3 +122,23 @@ Note: Semrush API credits were exhausted on Nov 4, so batch 2 used the Nov 1 val
 **Next (day 60 to 90):** pull Semrush positions, expand pages ranking 8 to 20, then plan the next cluster (slab leaks, commercial water damage, condo leaks, water damage drywall).
 
 Each new post: Semrush SERP brief first, then the Blog Post Criteria checklist, add it to `src/data.py` (BLOG + a service's GUIDES), add 2 to 3 in-text links from older pages, `python3 gen_images.py && python3 build.py && python3 audit.py`.
+
+## 7. Semrush competitor validation — batch 2 posts (2026-11-04)
+
+Each post was checked against the Semrush US top-10 organic results for its main keyword (`phrase_organic`) and the related question set (`phrase_questions`). Competitor pages in the top results were read to find subtopics we were missing. New sections only use facts from government sources, or company sources credited by name in the text (Travelers, Farmers, ATI Restoration).
+
+| Post | Words before → after | Gaps closed (new H2s / FAQs) |
+|---|---|---|
+| smoke-damage-cleanup | 1,343 → 1,658 | What is considered smoke damage; How to clean smoke damage on walls and ceilings (USFA floor-up order, primer); FAQs: renters insurance, painting over smoke |
+| does-homeowners-insurance-cover-mold | 1,206 → 1,437 | Does insurance cover mold removal; Hidden water damage and mold; If your mold claim is denied (MIA complaint) |
+| crawl-space-mold | 1,155 → 1,403 | How much crawl space mold is acceptable (no federal limit, EPA); Can you remove it yourself; Does encapsulation get rid of mold; containment FAQ |
+| water-in-basement-after-heavy-rain | 1,126 → 1,402 | Why water only shows up in heavy rain / hours later; What is drain tile; Is it a structural problem (crack tracking, interior sealers) |
+| signs-of-water-damage-in-walls | 1,148 → 1,405 | Listen / water-meter / press checks; Who do you call for water damage in a wall (table); insurance FAQ |
+| category-3-water | 1,022 → 1,266 | What is Category 3 water; How to lower your risk of black water; FAQs: fire sprinkler water, rain water |
+| how-long-does-water-damage-restoration-take | 1,017 → 1,163 | How long repairs and rebuilding take; How long contents cleaning takes (ATI benchmarks, credited) |
+| what-does-a-water-mitigation-company-do | 1,057 → 1,222 | What is water mitigation; How much does water mitigation cost (factors only, no prices) |
+| ice-dams | 1,163 → 1,510 | Ice dam vs. icicles; How to remove an ice dam safely (Travelers calcium-chloride method, steam); NWS attic-heat note; re-roof membrane; removal FAQ |
+| sewer-backup-insurance-maryland | 1,059 → 1,300 | Is sewer backup coverage worth it (Farmers risk list); How much coverage do I need (Farmers: limits commonly start at $5,000); What is it FAQ |
+| wet-carpet-drying | 1,031 → 1,178 | How to get rid of wet carpet smell; keep traffic off wet carpet |
+
+After the edits: audit.py 0 failing checks (53 pages), FK grade 4.8–7.3 on these posts, responsive test 0 failures of 36.

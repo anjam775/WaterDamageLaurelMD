@@ -48,6 +48,10 @@ When a pipe bursts, it's not always clear who to call first. A plumber stops the
 
 This is general information, not legal or insurance advice.
 
+## What is water mitigation?
+
+Water mitigation is the work done right after a leak or flood to keep the damage from getting worse. It means stopping the water, pulling it out, removing what can't be saved and drying the building. It does not include rebuilding. Think of mitigation as stopping the loss, and restoration as putting the home back together.
+
 ## What a water mitigation company does on day one
 
 1. **Answers fast and triages.** Asks about the source, the rooms and the water type, and helps you stop the flow.
@@ -103,6 +107,20 @@ Ask these questions before work beyond emergency steps begins:
 - Who does repairs, and do they hold a Maryland Home Improvement Commission license?
 
 Watch for red flags: pressure to sign an open-ended contract on the spot, no written scope, no moisture readings, or a promise that insurance will "cover everything." Maryland consumer agencies advise checking a contractor's license and getting the contract in writing before work starts.
+
+## How much does water mitigation cost?
+
+The price depends on the job, so be wary of a quote given before anyone sees the damage. The main factors are:
+
+!checks
+- How many square feet got wet, and how many rooms and floors
+- Whether the water is clean, gray or sewage
+- How much carpet, pad, drywall and baseboard has to come out
+- How many dehumidifiers and air movers are needed, and for how many days
+- Whether mold or contents cleaning is part of the work
+- After-hours or holiday response
+
+Our guide to [water damage restoration cost](/blog/water-damage-restoration-cost/) explains how these line items add up and what insurance often pays.
 
 ## What you can do while the crew works
 
