@@ -161,7 +161,7 @@ def footer():
 </div><div class="legal"><p>© 2026 {BRAND}. Content on this site is general information, not professional, legal or insurance advice. See the <a href="/disclaimer/">disclaimer</a>.</p></div></div></footer>
 <div class="callbar"><a href="tel:{TEL}" data-loc="sticky">{icons.PHONE}Call {PHONE}</a></div>'''
 
-def page(path, title, meta, body, schema=None, og_img="/assets/img/og-default.jpg", og_type="website", noindex=False, extra_head="", lastmod=None):
+def page(path, title, meta, body, schema=None, og_img="/assets/img/og-default.jpg", og_type="website", noindex=False, extra_head="", lastmod=None, og_h=630):
     url = DOMAIN + path
     sch = ""
     if schema:
@@ -169,7 +169,7 @@ def page(path, title, meta, body, schema=None, og_img="/assets/img/og-default.jp
     robots = "noindex,follow" if noindex else "index,follow,max-image-preview:large"
     doc = f'''<!DOCTYPE html><html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(title)}</title><meta name="description" content="{E(meta)}"><link rel="canonical" href="{url}"><meta name="robots" content="{robots}">
-<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="{BRAND}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(meta)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{DOMAIN}{og_img}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="en_US">
+<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="{BRAND}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(meta)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{DOMAIN}{og_img}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="{og_h}"><meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(meta)}"><meta name="twitter:image" content="{DOMAIN}{og_img}">{extra_head}
 <meta name="theme-color" content="#0B2545"><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest">
 <style>{CRIT}</style><link rel="stylesheet" href="/assets/css/site.css?v={CSS_VER}" media="print" id="fullcss"><noscript><link rel="stylesheet" href="/assets/css/site.css?v={CSS_VER}"></noscript>
@@ -298,17 +298,61 @@ def webpage(path, name, desc, about=None, mentions=None, citation=None, ptype="W
     if extra: n.update(extra)
     return n
 
+
+# ---------------------------------------------------------------- scene illustrations
+sys.path.insert(0, str(ROOT))
+from gen_scenes import ALT as SCENE_ALT
+SCENE_CAP = {
+    "home-crew": "Drying starts with measuring. Moisture readings decide where air movers and dehumidifiers go.",
+    "home-process": "One call gets a crew and drying equipment on the way, day or night.",
+    "home-laurel": "Laurel sits along the Patuxent River. Low areas near the river and its streams can flood in heavy storms.",
+    "svc-emergency-water-removal": "Standing water comes out first. Extraction removes far more water than fans alone.",
+    "svc-water-mitigation-structural-drying": "Opening a small section of wall lets air reach wet framing, and meter readings show when it's dry.",
+    "svc-flooded-basement-cleanup": "Basements flood from rain, sump failures and backups. The source decides how cleanup is done.",
+    "svc-burst-pipe-water-damage": "The first step after a burst pipe is closing the main water shutoff.",
+    "svc-ceiling-drywall-water-damage": "A stained, sagging ceiling often holds water. Catch drips and keep people out from under it.",
+    "svc-sewage-cleanup": "Sewage is Category 3 water. Crews wear protective gear and filter the air during cleanup.",
+    "svc-mold-remediation": "Containment keeps mold spores inside the work area while a HEPA air scrubber filters the air.",
+    "svc-storm-flood-damage": "Storm water that crosses the ground into a home is treated as contaminated water.",
+    "svc-fire-smoke-damage": "Soot is removed in sections, and air scrubbers capture fine particles while crews clean.",
+}
+def scene(name, cap=None):
+    src = f"/assets/img/scenes/{name}"
+    cap = cap or SCENE_CAP.get(name, "")
+    return (f'<figure class="scene"><img src="{src}.webp" srcset="{src}-600.webp 600w, {src}.webp 1200w" sizes="(max-width: 800px) 100vw, 800px" '
+            f'alt="{E(SCENE_ALT[name])}" width="1200" height="750" loading="lazy" decoding="async">'
+            + (f'<figcaption>{E(cap)}</figcaption>' if cap else "") + '</figure>')
+
+def before_h2(html_s, n, fig):
+    """Insert fig before the n-th (0-based) <h2 in html_s; append if missing."""
+    idx = [m.start() for m in re.finditer(r"<h2", html_s)]
+    return html_s[:idx[n]] + fig + html_s[idx[n]:] if len(idx) > n else html_s + fig
+
+def before_h2_match(html_s, pat, fig):
+    m = re.search(r"<h2[^>]*>[^<]*(?:" + pat + r")", html_s, re.I)
+    return html_s[:m.start()] + fig + html_s[m.start():] if m else html_s
+
 # ---------------------------------------------------------------- build steps
 def load_posts():
     for sl, (cat, money) in BLOG.items():
         fm, body = read_md(SRC / "content" / "blog" / f"{sl}.md")
         POSTS[sl] = dict(fm=fm, body=body, cat=cat, money=money)
 
+def img_obj(name):
+    return {"@type": "ImageObject", "url": f"{DOMAIN}/assets/img/scenes/{name}.jpg", "width": 1200, "height": 750}
+
+LOC_CAP = {"bowie-md": "colonials to ramblers and Cape Cods", "columbia-md": "village townhomes to single-family homes near the lakes",
+           "greenbelt-md": "historic garden homes to newer townhomes", "silver-spring-md": "older bungalows to high-rise condos",
+           "beltsville-md": "split-levels to ramblers on larger lots", "burtonsville-md": "newer colonials to older homes on wooded lots",
+           "odenton-fort-meade-md": "townhome rows to single-family homes", "maple-lawn-fulton-md": "new townhomes to large single-family homes"}
+
 def build_service(sl):
     fm, body = read_md(SRC / "content" / "services" / f"{sl}.md")
     s = SVC[sl]; path = f"/services/{sl}/"
     crumbs = [("Home", "/"), ("Services", "/services/"), (fm.get("crumb", s[1]), path)]
     main = gloss_apply(render_md(body), path)
+    main = before_h2(main, 1, scene("svc-" + sl))
+    main = before_h2_match(main, r"process|step by step|how we", scene("home-process", "From the first call, a crew brings extraction and drying equipment to your home."))
     rel = f'<h2>Related water damage services</h2>{svc_cards(RELATED[sl])}'
     near = f'<h2>{E(s[1])} near you</h2><p>{E(fm["near"])}</p>{loc_pills()}'
     guides = f'<h2>Helpful guides</h2>{post_cards(GUIDES[sl])}'
@@ -320,10 +364,11 @@ def build_service(sl):
                "availableChannel": {"@type": "ServiceChannel", "servicePhone": {"@type": "ContactPoint", "telephone": TEL, "contactType": "customer service"}, "serviceUrl": DOMAIN + path}}
     wp = webpage(path, fm["title"], fm["meta"], about=[{"@id": BIZ_ID}, {"@id": DOMAIN + path + "#service"}] + [thing(a) for a in fm.get("about", [])],
                  mentions=[thing(m) for m in fm.get("mentions", [])] + [thing("Laurel, Maryland")], citation=fm["src"])
+    service["image"] = img_obj("svc-" + sl); wp["primaryImageOfPage"] = img_obj("svc-" + sl)
     graph = [org_node(), website_node(), biz_node(), wp, service, crumbs_schema(crumbs, path)]
     fs = faq_schema(fm["faq"], path)
     if fs: graph.append(fs)
-    page(path, fm["title"], fm["meta"], html_body, graph)
+    page(path, fm["title"], fm["meta"], html_body, graph, og_img=f"/assets/img/scenes/svc-{sl}.jpg", og_h=750)
     SOURCES_TXT[path] = (fm, body)
 
 def build_location(lo):
@@ -333,6 +378,7 @@ def build_location(lo):
     LOC_CARD[sl] = fm["card"]
     crumbs = [("Home", "/"), ("Locations", "/locations/"), (fm.get("crumb", name), path)]
     main = gloss_apply(render_md(body), path)
+    main = before_h2(main, 1, scene("loc-" + sl, f"We serve homes across {name}, from {LOC_CAP[sl]}."))
     svc = f'<h2>{E(fm["svc_h2"])}</h2>{svc_cards()}'
     near = f'<h2>Nearby areas covered</h2>{loc_pills(nearby)}'
     html_body = hero(fm["h1"], fm["lead"], crumbs, fm.get("chips")) + \
@@ -346,10 +392,11 @@ def build_location(lo):
                "areaServed": places, "url": DOMAIN + path, "description": fm["meta"],
                "availableChannel": {"@type": "ServiceChannel", "servicePhone": {"@type": "ContactPoint", "telephone": TEL, "contactType": "customer service"}}}
     wp = webpage(path, fm["title"], fm["meta"], about=[{"@id": BIZ_ID}, thing("Water damage")], mentions=[thing(x) for x in LOC_WIKI[sl]] + [thing(COUNTY_WIKI[county])] + [thing(m) for m in fm.get("mentions", [])], citation=fm.get("src"))
+    service["image"] = img_obj("loc-" + sl); wp["primaryImageOfPage"] = img_obj("loc-" + sl)
     graph = [org_node(), website_node(), biz_node(), wp, service, crumbs_schema(crumbs, path)]
     fs = faq_schema(fm["faq"], path)
     if fs: graph.append(fs)
-    page(path, fm["title"], fm["meta"], html_body, graph)
+    page(path, fm["title"], fm["meta"], html_body, graph, og_img=f"/assets/img/scenes/loc-{sl}.jpg", og_h=750)
     SOURCES_TXT[path] = (fm, body)
 
 def build_post(sl):
@@ -395,9 +442,13 @@ def build_home():
     main = gloss_apply(main, "/")
     main = auto_replace(main, {"services": svc_cards(), "areas": loc_cards(),
                                "call": f'<div class="cta-box"><p>{inline(fm["mid_cta"])}</p>{call_btn("cta")}</div>'})
+    main = before_h2_match(main, r"Why Laurel homeowners", scene("home-crew"))
+    main = before_h2_match(main, r"how one call works", scene("home-process"))
+    main = before_h2_match(main, r"Why water damage in Laurel is different", scene("home-laurel"))
     html_body = hero(fm["h1"], fm["lead"], None, fm["chips"]) + f'<section class="sec"><div class="wrap"><div class="prose wide">{main}{faq_html(fm["faq"], "Water damage restoration questions")}{sources_html(fm["src"])}</div></div></section>' + band()
     wp = webpage("/", fm["title"], fm["meta"], about=[{"@id": BIZ_ID}, thing("Water damage")],
                  mentions=[thing("Laurel, Maryland"), thing("Prince George's County, Maryland"), thing("Patuxent River"), thing("Indoor mold")], citation=fm["src"], crumbs=False)
+    wp["primaryImageOfPage"] = img_obj("home-crew")
     graph = [org_node(), website_node(), biz_node(full=True), wp]
     for s in SERVICES:
         graph.append({"@type": "Service", "@id": f"{DOMAIN}/services/{s[0]}/#service", "name": s[2] + " in Laurel, MD", "url": f"{DOMAIN}/services/{s[0]}/", "provider": {"@id": BIZ_ID}})

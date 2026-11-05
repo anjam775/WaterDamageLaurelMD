@@ -107,3 +107,4 @@ a.card:hover,a.card:focus-visible{border-color:var(--blue);box-shadow:0 10px 24p
 @media(max-width:960px){.callbar{display:block}.ftr .cols{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}}
 @media(max-width:560px){.ftr .cols{grid-template-columns:1fr}.sec{padding:40px 0}.cta-box{padding:18px}.band .tel{font-size:24px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+.scene{margin:28px 0 30px}.scene img{display:block;width:100%;height:auto;aspect-ratio:1200/750;border-radius:var(--r);background:var(--bg);border:1px solid var(--line)}.scene figcaption{font-size:.92rem;color:var(--mut);margin-top:8px;line-height:1.5}

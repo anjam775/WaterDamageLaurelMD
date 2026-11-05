@@ -142,3 +142,15 @@ Each post was checked against the Semrush US top-10 organic results for its main
 | wet-carpet-drying | 1,031 → 1,178 | How to get rid of wet carpet smell; keep traffic off wet carpet |
 
 After the edits: audit.py 0 failing checks (53 pages), FK grade 4.8–7.3 on these posts, responsive test 0 failures of 36.
+
+## 8. Page illustrations (2026-11-05)
+
+20 flat-vector illustrations made by `gen_scenes.py` (SVG → WebP 1200w + 600w via `srcset`, plus a JPG for schema and social sharing). Each image is 6–14 KB, loads lazily, has width/height set (no layout shift), descriptive alt text and a short caption.
+
+| Page | Images and placement |
+|---|---|
+| Home | Technician drying a living room (before "Why Laurel homeowners call"), crew van arriving (before "how one call works"), Laurel homes by the Patuxent (before "Why water damage in Laurel is different") |
+| 9 service pages | One scene for each service before the 2nd H2, plus the crew-arrival image before the process section |
+| 8 location pages | A neighborhood scene for each area's housing types, before the 2nd H2 |
+
+Schema: Service `image` and WebPage `primaryImageOfPage` point to each page's scene; `og:image` on service and location pages uses the scene JPG (1200×750). These are illustrations. Swap in real job photos later by keeping the file names in `site/assets/img/scenes/`.
