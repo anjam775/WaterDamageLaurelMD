@@ -10,7 +10,7 @@ functions/api/   ← Cloudflare Pages Function: contact form → Resend
 src/             ← content (Markdown + TOML front matter), CSS, JS, data, glossary
 build.py         ← builds src/ → site/
 gen_images.py    ← builds blog featured images (JPG + WebP, 1200×630)
-gen_scenes.py    ← builds illustrated scenes for home, service and location pages (WebP 1200w + 600w, JPG for schema/OG)
+fetch_photos.py  ← downloads the Pexels photos for home, service and location pages (WebP 1200w + 600w, JPG for schema/OG)
 audit.py         ← self-audit (links, SEO, schema, uniqueness, readability, compliance, performance)
 DELIVERY.md      ← delivery report: audit, image list, placeholders, deploy steps, 90-day plan
 ```
@@ -20,7 +20,7 @@ DELIVERY.md      ← delivery report: audit, image list, placeholders, deploy st
 ```bash
 pip install markdown beautifulsoup4 lxml     # once
 python3 gen_images.py     # only if blog titles change
-python3 gen_scenes.py     # only if scene illustrations change
+python3 fetch_photos.py   # only if the photo list changes
 python3 build.py
 python3 audit.py          # must end with "0 failing checks"
 ```

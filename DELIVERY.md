@@ -143,14 +143,14 @@ Each post was checked against the Semrush US top-10 organic results for its main
 
 After the edits: audit.py 0 failing checks (53 pages), FK grade 4.8–7.3 on these posts, responsive test 0 failures of 36.
 
-## 8. Page illustrations (2026-11-05)
+## 8. Page photos (2026-11-05)
 
-20 flat-vector illustrations made by `gen_scenes.py` (SVG → WebP 1200w + 600w via `srcset`, plus a JPG for schema and social sharing). Each image is 6–14 KB, loads lazily, has width/height set (no layout shift), descriptive alt text and a short caption.
+20 real photos from Pexels (free Pexels license: commercial use allowed, no attribution required; credits are shown anyway). `fetch_photos.py` downloads them, crops each to 1200×750 and writes WebP 1200w + 600w (`srcset`) and a JPG for schema/OG, each under 180 KB. Images load lazily, have width/height set, alt text, a caption and a small linked photographer credit.
 
-| Page | Images and placement |
+| Page | Photo and placement |
 |---|---|
-| Home | Technician drying a living room (before "Why Laurel homeowners call"), crew van arriving (before "how one call works"), Laurel homes by the Patuxent (before "Why water damage in Laurel is different") |
-| 9 service pages | One scene for each service before the 2nd H2, plus the crew-arrival image before the process section |
-| 8 location pages | A neighborhood scene for each area's housing types, before the 2nd H2 |
+| Home | Tech in protective gear treating a living room (before "Why Laurel homeowners call"), rain pouring off a gutter (before "Why water damage in Laurel is different"), leaking pipe joint (before "Warning signs of hidden water damage") |
+| 9 service pages | One niche photo each before the 2nd H2: flooded room, wall repair after drying, unfinished basement, plumber at a pipe fitting, ceiling drywall sanding, sewage/disinfection tech, mold PPE, flooded house, house fire with firefighters |
+| 8 location pages | A US suburban home or townhouse row before the 2nd H2 (captions don't claim the photo was taken in that town) |
 
-Schema: Service `image` and WebPage `primaryImageOfPage` point to each page's scene; `og:image` on service and location pages uses the scene JPG (1200×750). These are illustrations. Swap in real job photos later by keeping the file names in `site/assets/img/scenes/`.
+Schema: Service `image` and WebPage `primaryImageOfPage` use each page's photo; `og:image` on service and location pages is the photo JPG (1200×750). Swap in your own job photos later by keeping the file names in `site/assets/img/photos/` (your real before/after photos will do more for trust and local SEO than stock).

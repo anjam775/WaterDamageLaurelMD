@@ -301,27 +301,28 @@ def webpage(path, name, desc, about=None, mentions=None, citation=None, ptype="W
 
 # ---------------------------------------------------------------- scene illustrations
 sys.path.insert(0, str(ROOT))
-from gen_scenes import ALT as SCENE_ALT
+from fetch_photos import PHOTOS, credit as photo_credit, page_url as photo_url
 SCENE_CAP = {
-    "home-crew": "Drying starts with measuring. Moisture readings decide where air movers and dehumidifiers go.",
-    "home-process": "One call gets a crew and drying equipment on the way, day or night.",
-    "home-laurel": "Laurel sits along the Patuxent River. Low areas near the river and its streams can flood in heavy storms.",
-    "svc-emergency-water-removal": "Standing water comes out first. Extraction removes far more water than fans alone.",
-    "svc-water-mitigation-structural-drying": "Opening a small section of wall lets air reach wet framing, and meter readings show when it's dry.",
+    "home-crew": "Water and sewage jobs end with cleaning and disinfecting, so the room is safe to use again.",
+    "home-rain": "Heavy storms put a lot of water against foundations. Low areas near the Patuxent and its streams can flood.",
+    "home-leak": "Small, slow leaks are easy to miss. Stains, drips and musty smells are early warning signs.",
+    "svc-emergency-water-removal": "Standing water comes out first. Left in place, it soaks walls and can lead to mold.",
+    "svc-water-mitigation-structural-drying": "Walls are repaired only after meter readings show the framing behind them is dry.",
     "svc-flooded-basement-cleanup": "Basements flood from rain, sump failures and backups. The source decides how cleanup is done.",
-    "svc-burst-pipe-water-damage": "The first step after a burst pipe is closing the main water shutoff.",
-    "svc-ceiling-drywall-water-damage": "A stained, sagging ceiling often holds water. Catch drips and keep people out from under it.",
+    "svc-burst-pipe-water-damage": "Shut off the main water valve first. The pipe gets repaired while the wet areas are dried.",
+    "svc-ceiling-drywall-water-damage": "Wet ceiling drywall is dried or replaced, then taped, sanded and painted to match.",
     "svc-sewage-cleanup": "Sewage is Category 3 water. Crews wear protective gear and filter the air during cleanup.",
-    "svc-mold-remediation": "Containment keeps mold spores inside the work area while a HEPA air scrubber filters the air.",
+    "svc-mold-remediation": "Mold work calls for protective gear, containment and HEPA air filtering.",
     "svc-storm-flood-damage": "Storm water that crosses the ground into a home is treated as contaminated water.",
-    "svc-fire-smoke-damage": "Soot is removed in sections, and air scrubbers capture fine particles while crews clean.",
+    "svc-fire-smoke-damage": "The water used to put out a fire soaks floors and walls, so drying starts along with smoke cleanup.",
 }
 def scene(name, cap=None):
-    src = f"/assets/img/scenes/{name}"
+    src = f"/assets/img/photos/{name}"
     cap = cap or SCENE_CAP.get(name, "")
+    cr = f'<a href="{photo_url(name)}" rel="nofollow noopener" target="_blank">{E(photo_credit(name))}</a>'
     return (f'<figure class="scene"><img src="{src}.webp" srcset="{src}-600.webp 600w, {src}.webp 1200w" sizes="(max-width: 800px) 100vw, 800px" '
-            f'alt="{E(SCENE_ALT[name])}" width="1200" height="750" loading="lazy" decoding="async">'
-            + (f'<figcaption>{E(cap)}</figcaption>' if cap else "") + '</figure>')
+            f'alt="{E(PHOTOS[name][2])}" width="1200" height="750" loading="lazy" decoding="async">'
+            f'<figcaption>{E(cap)} <span class="credit">{cr}</span></figcaption></figure>')
 
 def before_h2(html_s, n, fig):
     """Insert fig before the n-th (0-based) <h2 in html_s; append if missing."""
@@ -339,7 +340,7 @@ def load_posts():
         POSTS[sl] = dict(fm=fm, body=body, cat=cat, money=money)
 
 def img_obj(name):
-    return {"@type": "ImageObject", "url": f"{DOMAIN}/assets/img/scenes/{name}.jpg", "width": 1200, "height": 750}
+    return {"@type": "ImageObject", "url": f"{DOMAIN}/assets/img/photos/{name}.jpg", "width": 1200, "height": 750}
 
 LOC_CAP = {"bowie-md": "colonials to ramblers and Cape Cods", "columbia-md": "village townhomes to single-family homes near the lakes",
            "greenbelt-md": "historic garden homes to newer townhomes", "silver-spring-md": "older bungalows to high-rise condos",
@@ -352,7 +353,6 @@ def build_service(sl):
     crumbs = [("Home", "/"), ("Services", "/services/"), (fm.get("crumb", s[1]), path)]
     main = gloss_apply(render_md(body), path)
     main = before_h2(main, 1, scene("svc-" + sl))
-    main = before_h2_match(main, r"process|step by step|how we", scene("home-process", "From the first call, a crew brings extraction and drying equipment to your home."))
     rel = f'<h2>Related water damage services</h2>{svc_cards(RELATED[sl])}'
     near = f'<h2>{E(s[1])} near you</h2><p>{E(fm["near"])}</p>{loc_pills()}'
     guides = f'<h2>Helpful guides</h2>{post_cards(GUIDES[sl])}'
@@ -368,7 +368,7 @@ def build_service(sl):
     graph = [org_node(), website_node(), biz_node(), wp, service, crumbs_schema(crumbs, path)]
     fs = faq_schema(fm["faq"], path)
     if fs: graph.append(fs)
-    page(path, fm["title"], fm["meta"], html_body, graph, og_img=f"/assets/img/scenes/svc-{sl}.jpg", og_h=750)
+    page(path, fm["title"], fm["meta"], html_body, graph, og_img=f"/assets/img/photos/svc-{sl}.jpg", og_h=750)
     SOURCES_TXT[path] = (fm, body)
 
 def build_location(lo):
@@ -396,7 +396,7 @@ def build_location(lo):
     graph = [org_node(), website_node(), biz_node(), wp, service, crumbs_schema(crumbs, path)]
     fs = faq_schema(fm["faq"], path)
     if fs: graph.append(fs)
-    page(path, fm["title"], fm["meta"], html_body, graph, og_img=f"/assets/img/scenes/loc-{sl}.jpg", og_h=750)
+    page(path, fm["title"], fm["meta"], html_body, graph, og_img=f"/assets/img/photos/loc-{sl}.jpg", og_h=750)
     SOURCES_TXT[path] = (fm, body)
 
 def build_post(sl):
@@ -443,8 +443,8 @@ def build_home():
     main = auto_replace(main, {"services": svc_cards(), "areas": loc_cards(),
                                "call": f'<div class="cta-box"><p>{inline(fm["mid_cta"])}</p>{call_btn("cta")}</div>'})
     main = before_h2_match(main, r"Why Laurel homeowners", scene("home-crew"))
-    main = before_h2_match(main, r"how one call works", scene("home-process"))
-    main = before_h2_match(main, r"Why water damage in Laurel is different", scene("home-laurel"))
+    main = before_h2_match(main, r"Why water damage in Laurel is different", scene("home-rain"))
+    main = before_h2_match(main, r"Warning signs of hidden water damage", scene("home-leak"))
     html_body = hero(fm["h1"], fm["lead"], None, fm["chips"]) + f'<section class="sec"><div class="wrap"><div class="prose wide">{main}{faq_html(fm["faq"], "Water damage restoration questions")}{sources_html(fm["src"])}</div></div></section>' + band()
     wp = webpage("/", fm["title"], fm["meta"], about=[{"@id": BIZ_ID}, thing("Water damage")],
                  mentions=[thing("Laurel, Maryland"), thing("Prince George's County, Maryland"), thing("Patuxent River"), thing("Indoor mold")], citation=fm["src"], crumbs=False)
