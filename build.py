@@ -324,10 +324,19 @@ def scene(name, cap=None):
             f'alt="{E(PHOTOS[name][2])}" width="1200" height="750" loading="lazy" decoding="async">'
             f'<figcaption>{E(cap)} <span class="credit">{cr}</span></figcaption></figure>')
 
-def before_h2(html_s, n, fig):
-    """Insert fig before the n-th (0-based) <h2 in html_s; append if missing."""
+def _text_after(html_s, pos):
+    """Words of flowing text after the h2 starting at pos, up to the next table, h2 or block."""
+    end = html_s.find("</h2>", pos) + 5
+    stops = [i for i in (html_s.find(s, end) for s in ('<div class="tbl"', "<h2", '<div class="cta', '<figure', '<div class="cards')) if i != -1]
+    seg = html_s[end:min(stops) if stops else len(html_s)]
+    return len(re.sub(r"<[^>]+>", " ", seg).split())
+
+def before_h2(html_s, n, fig, min_words=70):
+    """Insert fig before the first h2 (from the n-th on) whose section opens with enough text to wrap around the photo."""
     idx = [m.start() for m in re.finditer(r"<h2", html_s)]
-    return html_s[:idx[n]] + fig + html_s[idx[n]:] if len(idx) > n else html_s + fig
+    if not idx: return html_s + fig
+    pick = next((i for i in idx[n:-1] if _text_after(html_s, i) >= min_words), idx[min(n, len(idx) - 1)])
+    return html_s[:pick] + fig + html_s[pick:]
 
 def before_h2_match(html_s, pat, fig):
     m = re.search(r"<h2[^>]*>[^<]*(?:" + pat + r")", html_s, re.I)
