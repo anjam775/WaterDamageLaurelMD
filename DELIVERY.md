@@ -154,3 +154,12 @@ After the edits: audit.py 0 failing checks (53 pages), FK grade 4.8–7.3 on the
 | 8 location pages | A US suburban home or townhouse row before the 2nd H2 (captions don't claim the photo was taken in that town) |
 
 Schema: Service `image` and WebPage `primaryImageOfPage` use each page's photo; `og:image` on service and location pages is the photo JPG (1200×750). Swap in your own job photos later by keeping the file names in `site/assets/img/photos/` (your real before/after photos will do more for trust and local SEO than stock).
+
+## 9. Google Analytics 4 (2026-11-06)
+
+- Measurement ID `G-DVX0GTXHKZ`, set once as `GA_ID` in `src/data.py`.
+- Loaded from `main.js` after the page finishes loading, and only on `waterdamagerestorationlaurelmd.com` (not on localhost or `*.pages.dev` previews), so test visits don't count.
+- Events: `phone_call_click` (every tel: link, with `link_location` and `page_path`) and `generate_lead` (contact form sent successfully).
+- CSP allows only Google's tag and collection domains (`www.googletagmanager.com`, `*.google-analytics.com`, `*.analytics.google.com`).
+- Also fixed: two inline `style=""` attributes (the header button group and the form consent checkbox) were blocked by the CSP in production; both now use CSS classes.
+- In GA4, mark `phone_call_click` and `generate_lead` as key events: Admin → Data display → Events (they appear after the first real click/submit).

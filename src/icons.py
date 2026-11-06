@@ -44,7 +44,7 @@ def FORM(services):
 <div><label for="f-svc">What happened?</label><select id="f-svc" name="service"><option value="">Choose one</option>{opts}<option>Not sure</option></select></div>
 <div><label for="f-msg">Details (optional)</label><textarea id="f-msg" name="message" rows="4"></textarea></div>
 <div class="hp" aria-hidden="true"><label for="f-co">Company</label><input id="f-co" name="company" tabindex="-1" autocomplete="off"></div>
-<div><label style="font-weight:400"><input type="checkbox" name="consent" value="yes" required style="width:auto;margin-right:8px">I agree that Laurel Dry Pros may call or text me about this request. See the <a href="/privacy-policy/">privacy policy</a>.</label></div>
+<div><label class="lbl-n"><input type="checkbox" name="consent" value="yes" required class="chk">I agree that Laurel Dry Pros may call or text me about this request. See the <a href="/privacy-policy/">privacy policy</a>.</label></div>
 <div><button type="submit" class="btn btn-call">Send request</button></div><p class="msg" role="status" aria-live="polite"></p></form>'''
 
 MAP = '<div class="map-ph" data-map="https://www.google.com/maps?q=Laurel,+MD+20707&amp;z=11&amp;output=embed"><p>The map loads from Google only if you ask for it.</p><button type="button" class="btn btn-call">Show service area map</button></div>'

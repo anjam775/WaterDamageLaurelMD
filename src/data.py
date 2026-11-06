@@ -155,3 +155,5 @@ COUNTY_WIKI = {"Howard County": "Howard County, Maryland", "Montgomery County": 
 
 # pages changed after launch -> sitemap lastmod
 UPDATED = "2026-11-04"
+
+GA_ID = "G-DVX0GTXHKZ"  # Google Analytics 4 measurement ID
