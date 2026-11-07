@@ -163,3 +163,7 @@ Schema: Service `image` and WebPage `primaryImageOfPage` use each page's photo; 
 - CSP allows only Google's tag and collection domains (`www.googletagmanager.com`, `*.google-analytics.com`, `*.analytics.google.com`).
 - Also fixed: two inline `style=""` attributes (the header button group and the form consent checkbox) were blocked by the CSP in production; both now use CSS classes.
 - In GA4, mark `phone_call_click` and `generate_lead` as key events: Admin → Data display → Events (they appear after the first real click/submit).
+
+## 10. Cloudflare Web Analytics (2026-11-07)
+
+CSP now also allows the Cloudflare Web Analytics beacon: `script-src https://static.cloudflareinsights.com` and `connect-src https://cloudflareinsights.com` (plus `'self'`, already present, for the `/cdn-cgi/rum` endpoint used by automatic injection on proxied/Pages sites). No code snippet is needed in the site when Cloudflare injects it automatically.
